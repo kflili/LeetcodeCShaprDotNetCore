@@ -8,21 +8,36 @@ First, I will start from the very basic and useful part. The Leetcode Course Sec
 
 ### Chapter 1. Array / String
 
-26. Remove Duplicates from Sorted Array
+#### 26. Remove Duplicates from Sorted Array
 
 This problem can be solved by typical double pointer technique.
+
+**Algorithm**
+Since the array is already sorted, we can keep two pointers *slow* and *fast*. As long as nums[*fast*] = nums[*slow*], we increse *fast* to skip the duplicate.
+
+When we encounter nums[*fast*] ¡Ù nums[*slow*], the duplicate run has ended so we must copy its value to nums[*slow* + 1]. ii is then incremented and we repeat the same process again until *fast* reaches the end of array.
 The core part for the solution code is as below:
 
 ```csharp
-int slow = 0;
-for (int fast = 0; fast < nums.Length; fast++)
+class Solution
 {
-    if (nums[fast] != nums[slow])
+    public int RemoveDuplicates(int[] nums)
     {
-        nums[++slow] = nums[fast];
+        if (nums == null || nums.Length == 0)
+        {
+            return 0;
+        }
+        int slow = 0;
+        for (int fast = 0; fast < nums.Length; fast++)
+        {
+            if (nums[fast] != nums[slow])
+            {
+                nums[++slow] = nums[fast];
+            }
+        }
+        return slow + 1;
     }
 }
-return slow + 1;
 ```
 
 Similar problems:
