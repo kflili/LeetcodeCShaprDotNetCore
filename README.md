@@ -15,7 +15,7 @@ This problem can be solved by typical double pointer technique.
 **Algorithm**
 Since the array is already sorted, we can keep two pointers *slow* and *fast*. As long as nums[*fast*] = nums[*slow*], we increse *fast* to skip the duplicate.
 
-When we encounter nums[*fast*] ¡Ù nums[*slow*], the duplicate run has ended so we must copy its value to nums[*slow* + 1]. ii is then incremented and we repeat the same process again until *fast* reaches the end of array.
+When we encounter nums[*fast*] != nums[*slow*], the duplicate run has ended so we must copy its value to nums[*slow* + 1]. ii is then incremented and we repeat the same process again until *fast* reaches the end of array.
 The core part for the solution code is as below:
 
 ```csharp

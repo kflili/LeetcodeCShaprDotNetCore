@@ -1,14 +1,11 @@
-<Project Sdk="Microsoft.NET.Sdk">
-
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.0</TargetFramework>
   </PropertyGroup>
-
   <ItemGroup>
     <Compile Remove="Algorithms Basics\**" />
     <EmbeddedResource Remove="Algorithms Basics\**" />
     <None Remove="Algorithms Basics\**" />
   </ItemGroup>
-
 </Project>
