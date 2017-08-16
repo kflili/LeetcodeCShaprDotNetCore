@@ -6,9 +6,9 @@ namespace LeetcodeCShaprDotNetCore
     {
         static void Main(string[] args)
         {
-            var nums = new int[]{1, 1, 2};
+            var nums = new int[]{ 3, 2, 2, 3 };
             var s = new Solution();
-            Console.WriteLine(s.RemoveDuplicates(nums));
+            Console.WriteLine(s.RemoveElement(nums, 3));
             Console.ReadLine();
         }
     }

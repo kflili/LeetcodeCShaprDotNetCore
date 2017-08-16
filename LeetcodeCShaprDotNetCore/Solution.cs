@@ -6,7 +6,7 @@ namespace LeetcodeCShaprDotNetCore
 {
     class Solution
     {
-        public int RemoveDuplicates(int[] nums)
+        public int RemoveElement(int[] nums, int val)
         {
             if (nums == null || nums.Length == 0)
             {
@@ -15,12 +15,12 @@ namespace LeetcodeCShaprDotNetCore
             int slow = 0;
             for (int fast = 0; fast < nums.Length; fast++)
             {
-                if (nums[fast] != nums[slow])
+                if (nums[fast] != val)
                 {
-                    nums[++slow] = nums[fast];
+                    nums[slow++] = nums[fast];
                 }
             }
-            return slow + 1;
+            return slow;
         }
     }
 }

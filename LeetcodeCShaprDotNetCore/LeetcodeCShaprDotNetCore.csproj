@@ -6,11 +6,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Algorithms Basics\Chapter 1. Array_String\26. Remove Duplicates from Sorted Array\similar problems\Solution.cs" />
     <Compile Remove="Algorithms Basics\Chapter 1. Array_String\26. Remove Duplicates from Sorted Array\_26_RemoveDuplicates.cs" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Algorithms Basics\Chapter 1. Array_String\26. Remove Duplicates from Sorted Array\" />
+    <Folder Include="Algorithms Basics\Chapter 1. Array_String\26. Remove Duplicates from Sorted Array\similar problems\" />
   </ItemGroup>
 
 </Project>
