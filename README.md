@@ -41,4 +41,4 @@ class Solution
 ```
 
 Similar problems:
- >27. Remove Element, 
+ >27 Remove Element; 203 Remove Linked List Elements; 283. Move Zeroes (error prone, double think for more cases)
