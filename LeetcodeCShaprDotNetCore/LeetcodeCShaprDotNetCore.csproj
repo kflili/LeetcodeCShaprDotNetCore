@@ -5,4 +5,12 @@
     <TargetFramework>netcoreapp2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Algorithms Basics\Chapter 1. Array_String\26. Remove Duplicates from Sorted Array\_26_RemoveDuplicates.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Algorithms Basics\Chapter 1. Array_String\26. Remove Duplicates from Sorted Array\" />
+  </ItemGroup>
+
 </Project>
