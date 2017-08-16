@@ -3,27 +3,25 @@ using System.Collections.Generic;
 using System.Text;
 
 namespace LeetcodeCShaprDotNetCore {
-    class Solution {
-        public ListNode RemoveElements(ListNode head, int val) {
-            var dummy = new ListNode(0) {next = head};
-            var pre = dummy;
-            while (head != null) {
-                if (head.val == val) {
-                    pre.next = head.next;
-                    head = head.next;
+    public class Solution {
+        public int[] TwoSum(int[] nums, int target) {
+            int[] res = null;
+            if (nums == null || nums.Length == 0) {
+                return res;
+            }
+            for (int i = 0, j = nums.Length - 1; i < j;) {
+                var v = nums[i] + nums[j];
+                if (v == target) {
+                    res = new int[] { i + 1, j + 1 };
+                    break;
                 }
-                else {
-                    pre = pre.next;
-                    head = head.next;
+                if (v < target) {
+                    i++;
+                } else {
+                    j--;
                 }
             }
-            return dummy.next;
+            return res;
         }
     }
 }
-
-/*
-Example
-Given: 1 --> 2 --> 6 --> 3 --> 4 --> 5 --> 6, val = 6
-Return: 1 --> 2 --> 3 --> 4 --> 5
-*/

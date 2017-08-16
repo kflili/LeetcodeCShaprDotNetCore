@@ -41,4 +41,13 @@ class Solution
 ```
 
 Similar problems:
- >27 Remove Element; 203 Remove Linked List Elements; 283. Move Zeroes (error prone, double think for more cases)
+ >27. Remove Element; 203. Remove Linked List Elements; 283. Move Zeroes (error prone, double think for more cases)
+
+ #### 167. Two Sum II - Input array is sorted
+
+This problem can be solved by typical double pointer technique.
+
+**Algorithm**
+Since the array is already sorted, we can keep two pointers *left* and *right*. let v = nums[*left*] + nums[*right*], if v < target, left++; if v > target, right--; if v == target, then return.
+
+Similar problems:
