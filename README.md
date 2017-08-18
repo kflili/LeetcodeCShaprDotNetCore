@@ -2,7 +2,7 @@
 
 I will use this repository to make notes for leetcode solutions and sort similar questions into the same group or category.
 
-### Solved problem list table
+### Solved Problem (8)
 
 ID | Difficulty | Tags | Solution
 -- | ---------- | ---- | --------
