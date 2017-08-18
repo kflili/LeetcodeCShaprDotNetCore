@@ -15,6 +15,7 @@ ID | Difficulty | Tags | Solution
 653 | Easy | Binary search Tree, HashSet, BFS, recursion, traverse | [Two Sum IV - Input is a BST](https://goo.gl/nxcbjF)
 242 | Easy | Hash Table (Dictionary) | [Valid Anagram](https://goo.gl/kAT9Pp)
 438 | Easy | Hash Table (Dictionary), Two pointer, Sub string, Sliding window | [Find All Anagrams in a String](https://goo.gl/R5LUzb)
+3 | Medium| Hash Table (Dictionary), Two pointer, Sub string, Sliding window |[Longest Substring Without Repeating Characters](https://goo.gl/vWLZn5)
 
 <br />
 <br />
@@ -83,3 +84,4 @@ First use dict record the counts for each char in string1, then check for string
 
 Similar problems:
 *438.* Find All Anagrams in a String (using sliding window in substring)
+*3.* Longest Substring Without Repeating Characters (similar to 438, error prone)
