@@ -6,14 +6,17 @@ I will use this repository to make notes for leetcode solutions and sort similar
 
 ID | Difficulty | Tags | Solution
 -- | ---------- | ---- | --------
-26 | Easy| Array, Two Pointers | [Remove Duplicates from Sorted Array](https://goo.gl/adguPS)
-27 | Easy | Array, Two Pointers | [Remove Element](https://goo.gl/C6bpzX)
-203 | Easy | Linked List | [Remove Linked List Elements](https://goo.gl/QvRRkU)
-283 | Easy | Array, Two Pointers | [Move Zeroes](https://goo.gl/U9ZJa4)
-167 | Easy | Arra, Two Pointers, Binary Search | [Two Sum II - Input array is sorted](https://goo.gl/BYUaKE)
-1 | Easy | Array, Hash Table (Dictionary) | [Two Sum](https://goo.gl/UKiyT8)
-653 | Easy | Binary search Tree, HashSet, BFS, recursion, traverse | [Two Sum IV - Input is a BST](https://goo.gl/gzuznZ)
+26 | Easy| Array, Two Pointers | [Remove Duplicates from Sorted Array](https://goo.gl/NLUK98)
+27 | Easy | Array, Two Pointers | [Remove Element](https://goo.gl/yhMFxw)
+203 | Easy | Linked List | [Remove Linked List Elements](https://goo.gl/GEjB5N)
+283 | Easy | Array, Two Pointers | [Move Zeroes](https://goo.gl/2MbNME)
+167 | Easy | Arra, Two Pointers, Binary Search | [Two Sum II - Input array is sorted](https://goo.gl/F2dFWH)
+1 | Easy | Array, Hash Table (Dictionary) | [Two Sum](https://goo.gl/q9NyWF)
+653 | Easy | Binary search Tree, HashSet, BFS, recursion, traverse | [Two Sum IV - Input is a BST](https://goo.gl/nxcbjF)
+242 | Easy | Hash Table (Dictionary) | [Valid Anagram](https://goo.gl/kAT9Pp)
 
+<br />
+<br />
 
 ## Algorithms Basics
 
