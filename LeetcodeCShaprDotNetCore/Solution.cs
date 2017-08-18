@@ -4,24 +4,29 @@ using System.Text;
 
 namespace LeetcodeCShaprDotNetCore {
     public class Solution {
-        public int[] TwoSum(int[] nums, int target) {
-            int[] res = null;
-            if (nums == null || nums.Length == 0) {
-                return res;
-            }
-            for (int i = 0, j = nums.Length - 1; i < j;) {
-                var v = nums[i] + nums[j];
-                if (v == target) {
-                    res = new int[] { i + 1, j + 1 };
-                    break;
-                }
-                if (v < target) {
-                    i++;
+        public bool IsAnagram(string s, string t) {
+            if (s == null) return t == null;
+            if (t == null) return false;
+            int m = s.Length, n = t.Length;
+            if (m != n) return false;
+            var dict = new Dictionary<char, int>();
+            for (var i = 0; i < m; i++) {
+                if (!dict.ContainsKey(s[i])) {
+                    dict[s[i]] = 1;
                 } else {
-                    j--;
+                    dict[s[i]]++;
                 }
             }
-            return res;
+            for (var i = 0; i < n; i++) {
+                if (!dict.ContainsKey(t[i])) {
+                    return false;
+                }
+                dict[t[i]]--;
+                if (dict[t[i]] < 0) {
+                    return false;
+                }
+            }
+            return true;
         }
     }
 }

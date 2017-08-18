@@ -56,3 +56,11 @@ Since the array is already sorted, we can keep two pointers *left* and *right*. 
 Similar problems:
 *1.* Two Sum (use dict for each item just use almost O(1) check time, so totally O(n) time);
 *653.* Two Sum IV - Input is a BST (3 solution to revisit) 
+
+#### 242. Valid Anagram
+
+This problem can be solved by using Dictionary.
+
+**Algorithm**
+First use dict record the counts for each char in string1, then check for string2, for each char c, if !dict.ContainsKey(c), return fasle; else dict[c]--, if dict[c] < 0, return false.
+
