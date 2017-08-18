@@ -2,6 +2,19 @@
 
 I will use this repository to make notes for leetcode solutions and sort similar questions into the same group or category.
 
+solved problem list table
+
+ID | Difficulty | Tags | Solution
+-- | ---------- | ---- | --------
+26 | Easy| Array, Two Pointers | [Remove Duplicates from Sorted Array](https://goo.gl/adguPS)
+27 | Easy | Array, Two Pointers | [Remove Element](https://goo.gl/C6bpzX)
+203 | Easy | Linked List | [Remove Linked List Elements](https://goo.gl/QvRRkU)
+283 | Easy | Array, Two Pointers | [Move Zeroes](https://goo.gl/U9ZJa4)
+167 | Easy | Arra, Two Pointers, Binary Search | [Two Sum II - Input array is sorted](https://goo.gl/BYUaKE)
+1 | Easy | Array, Hash Table (Dictionary) | [Two Sum](https://goo.gl/UKiyT8)
+653 | Easy | Binary search Tree, HashSet, BFS, recursion, traverse | [Two Sum IV - Input is a BST](https://goo.gl/gzuznZ)
+
+
 First, I will start from the very basic and useful part. The Leetcode Course Section, which is selected interview questions aimed for beginners who do not know algorithms or need a refresher. Learn by doing.
 
 ## Algorithms Basics
