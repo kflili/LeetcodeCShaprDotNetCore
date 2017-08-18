@@ -54,4 +54,5 @@ This problem can be solved by typical double pointer technique.
 Since the array is already sorted, we can keep two pointers *left* and *right*. let v = nums[*left*] + nums[*right*], if v < target, left++; if v > target, right--; if v == target, then return.
 
 Similar problems:
-*1.* Two Sum (use dict for O(1) check time) 
+*1.* Two Sum (use dict for each item just use almost O(1) check time, so totally O(n) time);
+*653.* Two Sum IV - Input is a BST (3 solution to revisit) 
