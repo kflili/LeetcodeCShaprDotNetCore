@@ -14,6 +14,7 @@ ID | Difficulty | Tags | Solution
 1 | Easy | Array, Hash Table (Dictionary) | [Two Sum](https://goo.gl/q9NyWF)
 653 | Easy | Binary search Tree, HashSet, BFS, recursion, traverse | [Two Sum IV - Input is a BST](https://goo.gl/nxcbjF)
 242 | Easy | Hash Table (Dictionary) | [Valid Anagram](https://goo.gl/kAT9Pp)
+438 | Easy | Hash Table (Dictionary), Two pointer, Sub string, Sliding window | [Find All Anagrams in a String](https://goo.gl/R5LUzb)
 
 <br />
 <br />
@@ -80,3 +81,5 @@ This problem can be solved by using Dictionary.
 **Algorithm**
 First use dict record the counts for each char in string1, then check for string2, for each char c, if !dict.ContainsKey(c), return fasle; else dict[c]--, if dict[c] < 0, return false.
 
+Similar problems:
+*438.* Find All Anagrams in a String (using sliding window in substring)
