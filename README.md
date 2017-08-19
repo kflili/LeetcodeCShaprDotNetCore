@@ -84,4 +84,11 @@ First use dict record the counts for each char in string1, then check for string
 
 Similar problems:
 *438.* Find All Anagrams in a String (using sliding window in substring)
-*3.* Longest Substring Without Repeating Characters (similar to 438, error prone)
+
+#### *3.* Longest Substring Without Repeating Characters
+
+This problem can be solved by using Dictionary, Two pointers.
+Error prone. Think more about different cases.
+
+**Algorithm**
+Use dict save record for char. Use two pointers as a sliding window for substring problem. If the char at right pointer exists in the dict, just move the left pointer to skip the same previous char (be careful to compare if left pointer is already larger than the previous char index).
