@@ -1,4 +1,8 @@
-﻿public class Solution {
+﻿/*
+Similar Problem:
+203. Remove Linked List Elements
+ */
+public class Solution {
     public void DeleteNode(ListNode node) {
         node.val = node.next.val;
         node.next = node.next.next;

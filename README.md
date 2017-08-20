@@ -27,6 +27,12 @@ ID | Difficulty | Tags | Solution
 8 | Medium | Math, String | [String to Integer (atoi)](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%201.%20Array_String/8.%20String%20to%20Integer%20(atoi).cs)
 
 
+#### Chapter 2. Linked List (with similar problem)
+
+ID | Difficulty | Tags | Solution
+-- | ---------- | ---- | --------
+237 | Easy| Linked List | [Delete Node in a Linked List](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%202.%20Linked%20List/237.%20Delete%20Node%20in%20a%20Linked%20List.cs)
+
 ### Sorting
 
 ID | Difficulty | Tags | Solution
