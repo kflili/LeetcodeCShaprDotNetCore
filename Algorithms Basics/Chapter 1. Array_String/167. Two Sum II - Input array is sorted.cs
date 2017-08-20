@@ -1,4 +1,9 @@
-﻿public class Solution {
+﻿/*
+Similar problems:
+1. Two Sum
+653. Two Sum IV - Input is a BST
+ */
+public class Solution {
     public int[] TwoSum(int[] nums, int target) {
         int[] res = null;
         if (nums == null || nums.Length == 0) {

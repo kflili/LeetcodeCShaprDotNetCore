@@ -4,29 +4,48 @@ using System.Text;
 
 namespace LeetcodeCShaprDotNetCore {
     public class Solution {
-        public bool IsAnagram(string s, string t) {
-            if (s == null) return t == null;
-            if (t == null) return false;
-            int m = s.Length, n = t.Length;
-            if (m != n) return false;
-            var dict = new Dictionary<char, int>();
-            for (var i = 0; i < m; i++) {
-                if (!dict.ContainsKey(s[i])) {
-                    dict[s[i]] = 1;
-                } else {
-                    dict[s[i]]++;
+        /*
+            Requirements for atoi:
+            1. trim whitespace
+            2. takes an optional '+' or '-'
+            3. when meet non-numetic char, break " - 0012a43" return -12
+            4. If no valid conversion could be performed, 0 is returned.
+            5. If out of int range, return INT_MAX(2147483647) or INT_MIN(-2147483648)
+         */
+
+        public int MyAtoi(string str)
+        {
+            if (str == null) return 0;
+            str = str.Trim();
+            if (str.Length == 0) return 0;
+            int sign = 1;
+            int index = 0;
+            if (str[index] == '+') index++;
+            else if (str[index] == '-') {
+                sign = -1;
+                index++;
+            }
+            long num = 0;
+            for (; index < str.Length; index++) {
+                if (str[index] < '0' || str[index] > '9')
+                {
+                    break;
+                }
+                num = num * 10 + str[index] - '0';
+                if (num > int.MaxValue)
+                {
+                    break;
                 }
             }
-            for (var i = 0; i < n; i++) {
-                if (!dict.ContainsKey(t[i])) {
-                    return false;
-                }
-                dict[t[i]]--;
-                if (dict[t[i]] < 0) {
-                    return false;
-                }
+            if (num * sign >= int.MaxValue)
+            {
+                return int.MaxValue;
+            } 
+            if (num * sign <= int.MinValue)
+            {
+                return int.MinValue;
             }
-            return true;
+            return (int)num * sign;
         }
     }
 }

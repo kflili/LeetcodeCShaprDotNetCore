@@ -1,3 +1,7 @@
+/*
+Similar problems:
+438. Find All Anagrams in a String
+ */
 public class Solution {
     public bool IsAnagram(string s, string t) {
         if (s == null) return t == null;

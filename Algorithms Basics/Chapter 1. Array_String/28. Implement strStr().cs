@@ -1,3 +1,7 @@
+/*
+Similar Problem:
+459. Repeated Substring Pattern
+ */
 public class Solution {
     public int StrStr(string haystack, string needle) {
         if (haystack == null || needle == null) {
