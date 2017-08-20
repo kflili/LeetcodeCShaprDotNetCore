@@ -16,6 +16,8 @@ ID | Difficulty | Tags | Solution
 242 | Easy | Hash Table (Dictionary) | [Valid Anagram](https://goo.gl/kAT9Pp)
 438 | Easy | Hash Table (Dictionary), Two pointer, Sub string, Sliding window | [Find All Anagrams in a String](https://goo.gl/R5LUzb)
 3 | Medium| Hash Table (Dictionary), Two pointer, Sub string, Sliding window |[Longest Substring Without Repeating Characters](https://goo.gl/vWLZn5)
+28 | Easy | Two pointer, String | [Implement strStr()](https://goo.gl/UhEzha)
+459 | Easy | String | [Repeated Substring Pattern](https://goo.gl/VZ9j7H)
 
 <br />
 <br />
@@ -85,10 +87,17 @@ First use dict record the counts for each char in string1, then check for string
 Similar problems:
 *438.* Find All Anagrams in a String (using sliding window in substring)
 
-#### *3.* Longest Substring Without Repeating Characters
+#### 3. Longest Substring Without Repeating Characters
 
 This problem can be solved by using Dictionary, Two pointers.
 Error prone. Think more about different cases.
 
 **Algorithm**
 Use dict save record for char. Use two pointers as a sliding window for substring problem. If the char at right pointer exists in the dict, just move the left pointer to skip the same previous char (be careful to compare if left pointer is already larger than the previous char index).
+
+#### 28. Implement strStr()
+
+This problem can be solve either by brute force or using hash method or KMP.
+
+Similar Problem:
+*459.* Repeated Substring Pattern
