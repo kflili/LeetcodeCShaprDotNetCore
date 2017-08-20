@@ -31,8 +31,8 @@ ID | Difficulty | Tags | Solution
 
 ID | Difficulty | Tags | Solution
 -- | ---------- | ---- | --------
-  | Medium | Merge sort | [MergeSort](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/MergeSort.cs)
-  | Medium | Quick sort | [QuickSort](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/QuickSort.cs) 
+-- | Medium | Merge sort | [MergeSort](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/MergeSort.cs)
+-- | Medium | Quick sort | [QuickSort](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/QuickSort.cs) 
 
 ### SubString Topic
 
@@ -40,7 +40,7 @@ ID | Difficulty | Tags | Solution
 -- | ---------- | ---- | --------
 3 | Medium| Hash Table (Dictionary), Two pointer, Sub string, Sliding window |[Longest Substring Without Repeating Characters](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%201.%20Array_String/3.%20Longest%20Substring%20Without%20Repeating%20Characters.cs)
 438 | Easy | Hash Table (Dictionary), Two pointer, Sub string, Sliding window | [Find All Anagrams in a String](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%201.%20Array_String/438.%20Find%20All%20Anagrams%20in%20a%20String.cs)
-  | Easy | Sliding window for sub string | [SubString Template](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/SubString-topic/Sliding%20Window%20Template.cs)
+ -- | Easy | Sliding window for sub string | [SubString Template](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/SubString-topic/Sliding%20Window%20Template.cs)
 
 
 <br />
