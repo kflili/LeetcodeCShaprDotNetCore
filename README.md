@@ -3,6 +3,7 @@
 I will use this repository to make notes for leetcode solutions and sort similar questions into the same group or category.
 
 ## Solved Problem List
+Total solved: 22
 
 ### Algorithms Basics
 
