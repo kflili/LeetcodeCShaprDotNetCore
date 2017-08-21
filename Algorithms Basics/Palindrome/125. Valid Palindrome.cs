@@ -1,23 +1,24 @@
+
 public class Solution {
     public bool IsPalindrome(string s) {
         if (s.Length == 0) return true;
         int left = 0, right = s.Length - 1;
-        char leftChar, rightChar;
-        while (left <= right) {
-            leftChar = s[left];
-            rightChar = s[right];
-            if (!char.IsLetterOrDigit(leftChar)){
+        while (left < right) {
+            while (left < right && !char.IsLetterOrDigit(s[left])){
                 left++;
-            } else if (!char.IsLetterOrDigit(rightChar)) {
-                right--;
-            } else {
-                if (char.ToLower(leftChar) != char.ToLower(rightChar)) {
-                    return false;
-                }
-                left++;
+            } 
+            if (left == right) break;
+            while (left < right && !char.IsLetterOrDigit(s[right])) {
                 right--;
             }
+            if (left == right) break;
+            if (char.ToLower(s[left]) != char.ToLower(s[right])) {
+                return false;
+            }
+            left++;
+            right--;
+            
         }
         return true;
     }
-}
+}   

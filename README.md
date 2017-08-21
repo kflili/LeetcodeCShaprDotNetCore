@@ -36,7 +36,8 @@ ID | Difficulty | Tags | Solution
 234 | Easy | Linked List, Two Pointers | [Palindrome Linked List](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%202.%20Linked%20List/234.%20Palindrome%20Linked%20List.cs)
 9 | Easy| Math | [Palindrome Number](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Palindrome/9.%20Palindrome%20Number.cs)
 125 | Easy | Two pointers, String | [Valid Palindrome](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%202.%20Linked%20List/125.%20Valid%20Palindrome.cs)
-
+141 | Easy | Two pointers, Linked List | [Linked List Cycle](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%202.%20Linked%20List/141.%20Linked%20List%20Cycle.cs)
+142 | Medium | Two pointers, Linked List | [Linked List Cycle II](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%202.%20Linked%20List/142.%20Linked%20List%20Cycle%20II.cs)
 
 
 
