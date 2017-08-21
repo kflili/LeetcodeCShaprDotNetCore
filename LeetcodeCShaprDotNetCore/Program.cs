@@ -3,13 +3,6 @@ using System.Collections.Generic;
 namespace LeetcodeCShaprDotNetCore {
     class Program {
         static void Main(string[] args) {
-            var solution = new Solution2();
-            var s1 = "abab";
-            var s2 = "aba";
-            var s3 = "abcabcabcabc";
-            System.Console.WriteLine(solution.RepeatedSubstringPattern(s1));
-            System.Console.WriteLine(solution.RepeatedSubstringPattern(s2));
-            System.Console.WriteLine(solution.RepeatedSubstringPattern(s3));
         }
     }
 }

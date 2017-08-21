@@ -34,6 +34,8 @@ ID | Difficulty | Tags | Solution
 237 | Easy| Linked List | [Delete Node in a Linked List](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%202.%20Linked%20List/237.%20Delete%20Node%20in%20a%20Linked%20List.cs)
 206 | Easy | Linked List | [Reverse Linked List](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%202.%20Linked%20List/206.%20Reverse%20Linked%20List.cs)
 234 | Easy | Linked List, Two Pointers | [Palindrome Linked List](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%202.%20Linked%20List/234.%20Palindrome%20Linked%20List.cs)
+9 | Easy| Math | [Palindrome Number](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Palindrome/9.%20Palindrome%20Number.cs)
+125 | Easy | Two pointers, String | [Valid Palindrome](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%202.%20Linked%20List/125.%20Valid%20Palindrome.cs)
 
 
 
@@ -48,6 +50,35 @@ ID | Difficulty | Tags | Solution
 -- | ---------- | ---- | --------
 -- | Medium | Merge sort | [MergeSort](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/MergeSort.cs)
 -- | Medium | Quick sort | [QuickSort](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/QuickSort.cs) 
+
+### Palindrome
+All the Palindrome problem's core solution is check if reverse == origin. A efficient way is to compare reverse the sencond half, and check if FirstHalf(origin) == SecondHalf(reversed).
+For int, core solution is:
+```csharp
+while (x > rev) {
+    rev = rev * 10 + x % 10;
+    x = x / 10;
+}
+return (x == rev || x == rev / 10);
+```
+For string, core solution is:
+```csharp
+while (left <= right){
+    if (char.ToLower(leftChar) 
+        != char.ToLower(rightChar)){
+        return false;
+    }
+    left++;
+    right--;
+}
+return true;
+```
+
+ID | Difficulty | Tags | Solution
+-- | ---------- | ---- | --------
+9 | Easy| Math | [Palindrome Number](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Palindrome/9.%20Palindrome%20Number.cs)
+125 | Easy | Two pointers, String | [Valid Palindrome](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%202.%20Linked%20List/125.%20Valid%20Palindrome.cs)
+234 | Easy | Linked List, Two Pointers | [Palindrome Linked List](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%202.%20Linked%20List/234.%20Palindrome%20Linked%20List.cs)
 
 ### SubString Topic
 
