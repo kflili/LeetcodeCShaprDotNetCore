@@ -1,3 +1,4 @@
+// iteration
 public class Solution {
     public ListNode SwapPairs(ListNode head) {
         if (head == null || head.next == null) return head;
@@ -19,5 +20,16 @@ public class Solution {
             head = temp;
         }
         return dummy.next;
+    }
+}
+
+// recursion
+public class Solution2 {
+    public ListNode SwapPairs(ListNode head) {
+        if (head == null || head.next == null) return head;
+        ListNode n = head.next;
+        head.next = SwapPairs(n.next);
+        n.next = head;
+        return n;
     }
 }
