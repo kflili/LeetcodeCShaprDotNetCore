@@ -26,6 +26,7 @@ ID | Difficulty | Tags | Solution
 28 | Easy | Two pointer, String | [Implement strStr()](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%201.%20Array_String/28.%20Implement%20strStr().cs)
 459 | Easy | String | [Repeated Substring Pattern](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%201.%20Array_String/459.%20Repeated%20Substring%20Pattern.cs)
 8 | Medium | Math, String | [String to Integer (atoi)](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%201.%20Array_String/8.%20String%20to%20Integer%20(atoi).cs)
+24 | Medium | Linked List | [Swap Nodes in Pairs](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%202.%20Linked%20List/24.%20Swap%20Nodes%20in%20Pairs.cs)
 
 
 #### Chapter 2. Linked List (with similar problem)
