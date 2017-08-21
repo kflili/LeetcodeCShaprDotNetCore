@@ -38,9 +38,8 @@ ID | Difficulty | Tags | Solution
 125 | Easy | Two pointers, String | [Valid Palindrome](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%202.%20Linked%20List/125.%20Valid%20Palindrome.cs)
 141 | Easy | Two pointers, Linked List | [Linked List Cycle](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%202.%20Linked%20List/141.%20Linked%20List%20Cycle.cs)
 142 | Medium | Two pointers, Linked List | [Linked List Cycle II](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%202.%20Linked%20List/142.%20Linked%20List%20Cycle%20II.cs)
-
-
-
+21 | Easy | Linked List | [Merge Two Sorted Lists](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%202.%20Linked%20List/21.%20Merge%20Two%20Sorted%20Lists.cs)
+88 | Easy | Two pointers | [Merge Sorted Array](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%202.%20Linked%20List/88.%20Merge%20Sorted%20Array.cs)
 
 
 ## Other Topics
@@ -50,7 +49,9 @@ ID | Difficulty | Tags | Solution
 ID | Difficulty | Tags | Solution
 -- | ---------- | ---- | --------
 -- | Medium | Merge sort | [MergeSort](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/MergeSort.cs)
--- | Medium | Quick sort | [QuickSort](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/QuickSort.cs) 
+-- | Medium | Quick sort | [QuickSort](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/QuickSort.cs)
+21 | Easy | Linked List | [Merge Two Sorted Lists](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%202.%20Linked%20List/21.%20Merge%20Two%20Sorted%20Lists.cs)
+88 | Easy | Two pointers | [Merge Sorted Array](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%202.%20Linked%20List/88.%20Merge%20Sorted%20Array.cs)
 
 ### Palindrome
 All the Palindrome problem's core solution is check if reverse == origin. A efficient way is to compare reverse the sencond half, and check if FirstHalf(origin) == SecondHalf(reversed).
