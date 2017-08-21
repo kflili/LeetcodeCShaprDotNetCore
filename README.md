@@ -3,7 +3,7 @@
 I will use this repository to make notes for leetcode solutions and sort similar questions into the same group or category.
 
 ## Solved Problem List
-Total solved: 25
+Total solved: 26
 
 ### Algorithms Basics
 
@@ -48,7 +48,7 @@ ID | Difficulty | Tags | Solution
 -- | ---------- | ---- | --------
 104 | Easy | Tree, Depth-first Search | [Maximum Depth of Binary Tree](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%203.%20Binary%20Tree/104.%20Maximum%20Depth%20of%20Binary%20Tree.cs)
 110 | Easy | Tree, Depth-first Search | [Balanced Binary Tree](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%203.%20Binary%20Tree/110.%20Balanced%20Binary%20Tree.cs)
-
+110 | Easy | Tree, Depth-first Search | [Minimum Depth of Binary Tree](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%203.%20Binary%20Tree/111.%20Minimum%20Depth%20of%20Binary%20Tree.cs)
 
 ## Other Topics
 
