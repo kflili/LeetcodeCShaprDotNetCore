@@ -32,6 +32,15 @@ ID | Difficulty | Tags | Solution
 ID | Difficulty | Tags | Solution
 -- | ---------- | ---- | --------
 237 | Easy| Linked List | [Delete Node in a Linked List](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%202.%20Linked%20List/237.%20Delete%20Node%20in%20a%20Linked%20List.cs)
+206 | Easy | Linked List | [Reverse Linked List](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%202.%20Linked%20List/206.%20Reverse%20Linked%20List.cs)
+234 | Easy | Linked List, Two Pointers | [Palindrome Linked List](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%202.%20Linked%20List/234.%20Palindrome%20Linked%20List.cs)
+
+
+
+
+
+
+## Other Topics
 
 ### Sorting
 
