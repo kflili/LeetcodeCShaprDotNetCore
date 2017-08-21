@@ -3,7 +3,7 @@
 I will use this repository to make notes for leetcode solutions and sort similar questions into the same group or category.
 
 ## Solved Problem List
-Total solved: 22
+Total solved: 24
 
 ### Algorithms Basics
 
@@ -26,7 +26,6 @@ ID | Difficulty | Tags | Solution
 28 | Easy | Two pointer, String | [Implement strStr()](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%201.%20Array_String/28.%20Implement%20strStr().cs)
 459 | Easy | String | [Repeated Substring Pattern](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%201.%20Array_String/459.%20Repeated%20Substring%20Pattern.cs)
 8 | Medium | Math, String | [String to Integer (atoi)](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%201.%20Array_String/8.%20String%20to%20Integer%20(atoi).cs)
-24 | Medium | Linked List | [Swap Nodes in Pairs](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%202.%20Linked%20List/24.%20Swap%20Nodes%20in%20Pairs.cs)
 
 
 #### Chapter 2. Linked List (with similar problem)
@@ -42,6 +41,12 @@ ID | Difficulty | Tags | Solution
 142 | Medium | Two pointers, Linked List | [Linked List Cycle II](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%202.%20Linked%20List/142.%20Linked%20List%20Cycle%20II.cs)
 21 | Easy | Linked List | [Merge Two Sorted Lists](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%202.%20Linked%20List/21.%20Merge%20Two%20Sorted%20Lists.cs)
 88 | Easy | Two pointers | [Merge Sorted Array](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%202.%20Linked%20List/88.%20Merge%20Sorted%20Array.cs)
+24 | Medium | Linked List | [Swap Nodes in Pairs](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%202.%20Linked%20List/24.%20Swap%20Nodes%20in%20Pairs.cs)
+
+#### Chapter 3. Binary Tree
+ID | Difficulty | Tags | Solution
+-- | ---------- | ---- | --------
+104 | Easy | Tree, Depth-first Search | [Maximum Depth of Binary Tree](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%203.%20Binary%20Tree/104.%20Maximum%20Depth%20of%20Binary%20Tree.cs)
 
 
 ## Other Topics
