@@ -3,7 +3,7 @@
 I will use this repository to make notes for leetcode solutions and sort similar questions into the same group or category.
 
 ## Solved Problem List
-Total solved: 30
+Total solved: 32
 
 ### Algorithms Basics
 
@@ -53,6 +53,9 @@ ID | Difficulty | Tags | Solution
 112 | Easy | Tree, Depth-first Search | [Path Sum](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%203.%20Binary%20Tree/112.%20Path%20Sum.cs)
 437 | Easy | Tree, Depth-first Search | [Path Sum III](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%203.%20Binary%20Tree/437.%20Path%20Sum%20III.cs)
 257 | Easy | Tree, Depth-first Search | [Binary Tree Paths](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%203.%20Binary%20Tree/257.%20Binary%20Tree%20Paths.cs)
+98 | Medium | Tree, Depth-first Search | [Validate Binary Search Tree](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%203.%20Binary%20Tree/98.%20Validate%20Binary%20Search%20Tree.cs)
+94 | Medium | Tree, Stack | [Binary Tree Inorder Traversal](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%203.%20Binary%20Tree/94.%20Binary%20Tree%20Inorder%20Traversal.cs)
+
 
 ## Other Topics
 
