@@ -1,26 +1,19 @@
 public class Solution {
     public IList<string> BinaryTreePaths(TreeNode root) {
-        IList<string> res = new List<string>();
-        if (root == null) return res;
+        IList<string> paths = new List<string>();
+        if (root == null) return paths;
         if (root.left == null && root.right == null) {
-            res.Add(root.val.ToString());
-            return res;
+            paths.Add(root.val.ToString());
+            return paths;
         }
-        var leftPaths = BinaryTreePaths(root.left);
-        var rightPaths = BinaryTreePaths(root.right);
-        if (leftPaths != null) {
-            foreach (var path in leftPaths) {
-                var newPath = root.val + "->" + path;
-                res.Add(newPath);
-            }
+        foreach (var path in BinaryTreePaths(root.left)) {
+            var newPath = root.val + "->" + path;
+            paths.Add(newPath);
         }
-        if (rightPaths != null) {
-            foreach (var path in rightPaths)
-            {
-                var newPath = root.val + "->" + path;
-                res.Add(newPath);
-            }
+        foreach (var path in BinaryTreePaths(root.right)) {
+            var newPath = root.val + "->" + path;
+            paths.Add(newPath);
         }
-        return res;
+        return paths;
     }
 }
