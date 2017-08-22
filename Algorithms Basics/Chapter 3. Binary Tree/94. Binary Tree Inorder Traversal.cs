@@ -2,15 +2,15 @@
 public class Solution {
     public IList<int> InorderTraversal(TreeNode root) {
         var res = new List<int>();
-        helper(root, res);
-        return res;
-    }
-    private void helper(TreeNode root, List<int> res) {
-        if (root != null) {
-            helper(root.left, res);
-            res.Add(root.val);
-            helper(root.right, res);
+        if (root == null) return res;
+        if (root.left != null) {
+            res.AddRange(InorderTraversal(root.left));
         }
+        res.Add(root.val);
+        if (root.right != null) {
+            res.AddRange(InorderTraversal(root.right));
+        }
+        return res;
     }
 }
 
