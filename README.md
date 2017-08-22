@@ -3,7 +3,7 @@
 I will use this repository to make notes for leetcode solutions and sort similar questions into the same group or category.
 
 ## Solved Problem List
-Total solved: 29
+Total solved: 30
 
 ### Algorithms Basics
 
@@ -52,6 +52,7 @@ ID | Difficulty | Tags | Solution
 100 | Easy | Tree, Depth-first Search | [Same Tree](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%203.%20Binary%20Tree/100.%20Same%20Tree.cs)
 112 | Easy | Tree, Depth-first Search | [Path Sum](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%203.%20Binary%20Tree/112.%20Path%20Sum.cs)
 437 | Easy | Tree, Depth-first Search | [Path Sum III](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%203.%20Binary%20Tree/437.%20Path%20Sum%20III.cs)
+257 | Easy | Tree, Depth-first Search | [Binary Tree Paths](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%203.%20Binary%20Tree/257.%20Binary%20Tree%20Paths.cs)
 
 ## Other Topics
 
