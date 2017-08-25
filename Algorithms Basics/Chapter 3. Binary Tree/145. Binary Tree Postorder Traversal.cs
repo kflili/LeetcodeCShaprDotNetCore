@@ -67,24 +67,25 @@ public class Solution {
         var stack = new Stack<TreeNode>();
         TreeNode lastVisit = null;
         while (root != null || stack.Count > 0) {
-            while (root != null) {
+            if (root != null) {
                 stack.Push(root);
                 root = root.left;
-            }
-            root = stack.Peek();
-            // if root.right == null, then root is leaf, just Add root
-            // if root.right == lastVisit, 
-            // then both left and right are visited, just Add root
-            if (root.right == null || root.right == lastVisit) {
-                res.Add(root.val);
-                // pop root, mark it as lastvisit, and let root = null,
-                // so we can keep going to peek stack top for next step
-                stack.Pop();
-                lastVisit = root;
-                root = null;
             } else {
-                // root.right not null, and it's not visited
-                root = root.right;
+                root = stack.Peek();
+                if (root.right != null || root.right != lastVisit) {
+                    // root.right not null, and it's not visited, keep going to right
+                    root = root.right;
+                } else {
+                    // if root.right == null, then root is leaf, just Add root
+                    // if root.right == lastVisit, 
+                    // then both left and right are visited, just Add root
+                    res.Add(root.val);
+                    // pop root, mark it as lastvisit, and let root = null,
+                    // so we can keep going to peek stack top for next step
+                    stack.Pop();
+                    lastVisit = root;
+                    root = null;
+                }
             }
         }
         return res;
