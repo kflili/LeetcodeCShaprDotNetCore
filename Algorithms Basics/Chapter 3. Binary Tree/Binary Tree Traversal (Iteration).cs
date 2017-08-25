@@ -77,9 +77,10 @@ public class Solution {
     }
     // level order
     public IList<IList<int>> LevelOrder(TreeNode root) {
+        List<IList<int>> result = new List<IList<int>>();
+        if (root == null) return result;
         Queue<TreeNode> queue = new Queue<TreeNode>();
-        var result = new List<IList<int>>();
-        queue.Enqueue(root);            
+        queue.Enqueue(root);
         while (queue.Count > 0) {
             List<int> level = new List<int>();
             int size = queue.Count;
