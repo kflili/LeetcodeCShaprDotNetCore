@@ -57,7 +57,7 @@ ID | Difficulty | Tags | Solution
 94 | Medium | Tree, Stack | [Binary Tree Inorder Traversal](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%203.%20Binary%20Tree/94.%20Binary%20Tree%20Inorder%20Traversal.cs)
 144 | Medium | Tree, Stack | [Binary Tree Preorder Traversal](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%203.%20Binary%20Tree/144.%20Binary%20Tree%20Preorder%20Traversal.cs)
 145 | Medium | Tree, Stack | [Binary Tree Postorder Traversal](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%203.%20Binary%20Tree/145.%20Binary%20Tree%20Postorder%20Traversal.cs)
-102 | Medium | Tree, Stack | [Binary Tree Level Order Traversal](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%203.%20Binary%20Tree/102.%20Binary%20Tree%20Level%20Order%20Traversal.cs)
+102 | Medium | Tree, Queue, Breadth-first Search | [Binary Tree Level Order Traversal](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%203.%20Binary%20Tree/102.%20Binary%20Tree%20Level%20Order%20Traversal.cs)
 -- | Easy | Tree, Recursion | [Binary Tree Traversal (Recursion)](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%203.%20Binary%20Tree/Binary%20Tree%20Traversal%20(Recursion).csv)
 -- | Medium | Tree, Iteration | [Binary Tree Traversal (Iteration)](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%203.%20Binary%20Tree/Binary%20Tree%20Traversal%20(Iteration).cs)
 
