@@ -3,7 +3,7 @@
 I will use this repository to make notes for leetcode solutions and sort similar questions into the same group or category.
 
 ## Solved Problem List
-Total solved: 39
+Total solved: 40
 
 ### Algorithms Basics
 
@@ -76,6 +76,7 @@ ID | Difficulty | Tags | Solution
 ID | Difficulty | Tags | Solution
 -- | ---------- | ---- | --------
 136 | Easy | Bit Manipulation n | [Single Number](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%205.%20Bit%20Manipulation/136.%20Single%20Number.cs)
+190 | Easy | Bit Manipulation n | [Reverse Bits](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%205.%20Bit%20Manipulation/190.%20Reverse%20Bits.cs)
 
 
 
