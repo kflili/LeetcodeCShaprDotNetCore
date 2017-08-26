@@ -3,7 +3,7 @@
 I will use this repository to make notes for leetcode solutions and sort similar questions into the same group or category.
 
 ## Solved Problem List
-Total solved: 38
+Total solved: 39
 
 ### Algorithms Basics
 
@@ -44,6 +44,7 @@ ID | Difficulty | Tags | Solution
 24 | Medium | Linked List | [Swap Nodes in Pairs](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%202.%20Linked%20List/24.%20Swap%20Nodes%20in%20Pairs.cs)
 
 #### Chapter 3. Binary Tree
+
 ID | Difficulty | Tags | Solution
 -- | ---------- | ---- | --------
 104 | Easy | Tree, Depth-first Search | [Maximum Depth of Binary Tree](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%203.%20Binary%20Tree/104.%20Maximum%20Depth%20of%20Binary%20Tree.cs)
@@ -62,11 +63,20 @@ ID | Difficulty | Tags | Solution
 -- | Medium | Tree, Iteration | [Binary Tree Traversal (Iteration)](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%203.%20Binary%20Tree/Binary%20Tree%20Traversal%20(Iteration).cs)
 
 #### Chapter 4. Stack and Queue
+
 ID | Difficulty | Tags | Solution
 -- | ---------- | ---- | --------
 225 | Easy | Stack, Design | [Implement Stack using Queues](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%204.%20Stack%20and%20Queue/225.%20Implement%20Stack%20using%20Queues.cs)
 232 | Easy | Stack, Design | [Implement Queue using Stacks](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%204.%20Stack%20and%20Queue/232.%20Implement%20Queue%20using%20Stacks.cs)
 20 | Easy | Stack, String | [Valid Parentheses](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%204.%20Stack%20and%20Queue/20.%20Valid%20Parentheses.cs)
+102 | Medium | Tree, Queue, Breadth-first Search | [Binary Tree Level Order Traversal](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%203.%20Binary%20Tree/102.%20Binary%20Tree%20Level%20Order%20Traversal.cs)
+
+#### Chapter 5. Bit Manipulation
+
+ID | Difficulty | Tags | Solution
+-- | ---------- | ---- | --------
+136 | Easy | Bit Manipulation n | [Single Number](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%205.%20Bit%20Manipulation/136.%20Single%20Number.cs)
+
 
 
 ## Other Topics
