@@ -3,7 +3,7 @@
 I will use this repository to make notes for leetcode solutions and sort similar questions into the same group or category.
 
 ## Solved Problem List
-Total solved: 35
+Total solved: 36
 
 ### Algorithms Basics
 
@@ -61,6 +61,10 @@ ID | Difficulty | Tags | Solution
 -- | Easy | Tree, Recursion | [Binary Tree Traversal (Recursion)](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%203.%20Binary%20Tree/Binary%20Tree%20Traversal%20(Recursion).csv)
 -- | Medium | Tree, Iteration | [Binary Tree Traversal (Iteration)](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%203.%20Binary%20Tree/Binary%20Tree%20Traversal%20(Iteration).cs)
 
+#### Chapter 4. Stack and Queue
+ID | Difficulty | Tags | Solution
+-- | ---------- | ---- | --------
+225 | Easy | Stack, Design | [Implement Stack using Queues](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%204.%20Stack%20and%20Queue/225.%20Implement%20Stack%20using%20Queues.cs)
 
 ## Other Topics
 
