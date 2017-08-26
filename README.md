@@ -3,7 +3,7 @@
 I will use this repository to make notes for leetcode solutions and sort similar questions into the same group or category.
 
 ## Solved Problem List
-Total solved: 37
+Total solved: 38
 
 ### Algorithms Basics
 
@@ -66,6 +66,8 @@ ID | Difficulty | Tags | Solution
 -- | ---------- | ---- | --------
 225 | Easy | Stack, Design | [Implement Stack using Queues](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%204.%20Stack%20and%20Queue/225.%20Implement%20Stack%20using%20Queues.cs)
 232 | Easy | Stack, Design | [Implement Queue using Stacks](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%204.%20Stack%20and%20Queue/232.%20Implement%20Queue%20using%20Stacks.cs)
+20 | Easy | Stack, String | [Valid Parentheses](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%204.%20Stack%20and%20Queue/20.%20Valid%20Parentheses.cs)
+
 
 ## Other Topics
 
