@@ -77,7 +77,7 @@ ID | Difficulty | Tags | Solution
 -- | ---------- | ---- | --------
 136 | Easy | Bit Manipulation n | [Single Number](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%205.%20Bit%20Manipulation/136.%20Single%20Number.cs)
 190 | Easy | Bit Manipulation n | [Reverse Bits](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%205.%20Bit%20Manipulation/190.%20Reverse%20Bits.cs)
-
+191 | Easy | Bit Manipulation n | [Number of 1 Bits](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%205.%20Bit%20Manipulation/191.%20Number%20of%201%20Bits.cs)
 
 
 ## Other Topics
