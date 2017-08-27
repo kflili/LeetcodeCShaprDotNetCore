@@ -3,7 +3,7 @@
 I will use this repository to make notes for leetcode solutions and sort similar questions into the same group or category.
 
 ## Solved Problem List
-Total solved: 45
+Total solved: 46
 
 ### Algorithms Basics
 
@@ -90,6 +90,8 @@ ID | Difficulty | Tags | Solution
 374 | Easy | Binary Search | [Guess Number Higher or Lower(Current NO C# OJ Support)](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%206.%20Binary%20Search/374.%20Guess%20Number%20Higher%20or%20Lower.java)
 35 | Easy | Binary Search, Array | [Search Insert Position](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%206.%20Binary%20Search/35.%20Search%20Insert%20Position.cs)
 34 | Medium | Binary Search, Array | [Search for a Range](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%206.%20Binary%20Search/34.%20Search%20for%20a%20Range.cs)
+367 | Medium | Binary Search | [367. Valid Perfect Square](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%206.%20Binary%20Search/367.%20Valid%20Perfect%20Square.cs)
+
 
 ## Other Topics
 
