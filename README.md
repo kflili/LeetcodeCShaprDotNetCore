@@ -3,7 +3,7 @@
 I will use this repository to make notes for leetcode solutions and sort similar questions into the same group or category.
 
 ## Solved Problem List
-Total solved: 42
+Total solved: 43
 
 ### Algorithms Basics
 
@@ -80,6 +80,13 @@ ID | Difficulty | Tags | Solution
 191 | Easy | Bit Manipulation n | [Number of 1 Bits](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%205.%20Bit%20Manipulation/191.%20Number%20of%201%20Bits.cs)
 231 | Easy | Bit Manipulation n | [Power of Two](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%205.%20Bit%20Manipulation/231.%20Power%20of%20Two.cs)
 342 | Easy | Bit Manipulation n | [Power of Four](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%205.%20Bit%20Manipulation/342.%20Power%20of%20Four.cs)
+
+#### Chapter 6. Binary Search
+
+ID | Difficulty | Tags | Solution
+-- | ---------- | ---- | --------
+136 | Easy | Bit Manipulation n | [Single Number](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%205.%20Bit%20Manipulation/136.%20Single%20Number.cs)
+278 | Easy | Binary Search | [First Bad Version](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%206.%20Binary%20Search/278.%20First%20Bad%20Version.cs)
 
 
 
