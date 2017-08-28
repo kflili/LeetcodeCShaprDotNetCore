@@ -11,7 +11,7 @@ class Solution {
         }
         int slow = 0;
         for (int fast = 0; fast < nums.Length; fast++) {
-            if (nums[fast] != 0 && fast != slow) {
+            if (nums[fast] != 0 && slow < fast) {
                 while (slow < fast && nums[slow] != 0) {
                     slow++;
                 }
