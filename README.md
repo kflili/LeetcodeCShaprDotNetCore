@@ -85,7 +85,6 @@ ID | Difficulty | Tags | Solution
 
 ID | Difficulty | Tags | Solution
 -- | ---------- | ---- | --------
-136 | Easy | Bit Manipulation n | [Single Number](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%205.%20Bit%20Manipulation/136.%20Single%20Number.cs)
 278 | Easy | Binary Search | [First Bad Version](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%206.%20Binary%20Search/278.%20First%20Bad%20Version.cs)
 374 | Easy | Binary Search | [Guess Number Higher or Lower(Current NO C# OJ Support)](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%206.%20Binary%20Search/374.%20Guess%20Number%20Higher%20or%20Lower.java)
 35 | Easy | Binary Search, Array | [Search Insert Position](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%206.%20Binary%20Search/35.%20Search%20Insert%20Position.cs)
