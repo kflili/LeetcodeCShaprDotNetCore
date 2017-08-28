@@ -1,3 +1,4 @@
+// reverse the second half and use two pointer to compare first and second half
 public class Solution {
     public bool IsPalindrome(ListNode head) {
         if (head == null || head.next == null) {
