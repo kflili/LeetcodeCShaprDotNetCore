@@ -47,18 +47,18 @@ ID | Difficulty | Tags | Solution
 
 ID | Difficulty | Tags | Solution
 -- | ---------- | ---- | --------
-104 | Easy | Tree, Depth-first Search | [Maximum Depth of Binary Tree](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%203.%20Binary%20Tree/104.%20Maximum%20Depth%20of%20Binary%20Tree.cs)
-110 | Easy | Tree, Depth-first Search | [Balanced Binary Tree](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%203.%20Binary%20Tree/110.%20Balanced%20Binary%20Tree.cs)
-111 | Easy | Tree, Depth-first Search | [Minimum Depth of Binary Tree](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%203.%20Binary%20Tree/111.%20Minimum%20Depth%20of%20Binary%20Tree.cs)
-100 | Easy | Tree, Depth-first Search | [Same Tree](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%203.%20Binary%20Tree/100.%20Same%20Tree.cs)
-112 | Easy | Tree, Depth-first Search | [Path Sum](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%203.%20Binary%20Tree/112.%20Path%20Sum.cs)
-437 | Easy | Tree, Depth-first Search | [Path Sum III](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%203.%20Binary%20Tree/437.%20Path%20Sum%20III.cs)
-257 | Easy | Tree, Depth-first Search | [Binary Tree Paths](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%203.%20Binary%20Tree/257.%20Binary%20Tree%20Paths.cs)
-98 | Medium | Tree, Depth-first Search | [Validate Binary Search Tree](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%203.%20Binary%20Tree/98.%20Validate%20Binary%20Search%20Tree.cs)
+104 | Easy | Tree, DFS, BFS level traverse | [Maximum Depth of Binary Tree](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%203.%20Binary%20Tree/104.%20Maximum%20Depth%20of%20Binary%20Tree.cs)
+110 | Easy | Tree, DFS | [Balanced Binary Tree](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%203.%20Binary%20Tree/110.%20Balanced%20Binary%20Tree.cs)
+111 | Easy | Tree, DFS | [Minimum Depth of Binary Tree](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%203.%20Binary%20Tree/111.%20Minimum%20Depth%20of%20Binary%20Tree.cs)
+100 | Easy | Tree, DFS | [Same Tree](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%203.%20Binary%20Tree/100.%20Same%20Tree.cs)
+112 | Easy | Tree, DFS | [Path Sum](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%203.%20Binary%20Tree/112.%20Path%20Sum.cs)
+437 | Easy | Tree, DFS | [Path Sum III](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%203.%20Binary%20Tree/437.%20Path%20Sum%20III.cs)
+257 | Easy | Tree, DFS | [Binary Tree Paths](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%203.%20Binary%20Tree/257.%20Binary%20Tree%20Paths.cs)
+98 | Medium | Tree, DFS | [Validate Binary Search Tree](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%203.%20Binary%20Tree/98.%20Validate%20Binary%20Search%20Tree.cs)
 94 | Medium | Tree, Stack | [Binary Tree Inorder Traversal](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%203.%20Binary%20Tree/94.%20Binary%20Tree%20Inorder%20Traversal.cs)
 144 | Medium | Tree, Stack | [Binary Tree Preorder Traversal](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%203.%20Binary%20Tree/144.%20Binary%20Tree%20Preorder%20Traversal.cs)
 145 | Medium | Tree, Stack | [Binary Tree Postorder Traversal](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%203.%20Binary%20Tree/145.%20Binary%20Tree%20Postorder%20Traversal.cs)
-102 | Medium | Tree, Queue, Breadth-first Search | [Binary Tree Level Order Traversal](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%203.%20Binary%20Tree/102.%20Binary%20Tree%20Level%20Order%20Traversal.cs)
+102 | Medium | Tree, Queue, BFS | [Binary Tree Level Order Traversal](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%203.%20Binary%20Tree/102.%20Binary%20Tree%20Level%20Order%20Traversal.cs)
 -- | Easy | Tree, Recursion | [Binary Tree Traversal (Recursion)](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%203.%20Binary%20Tree/Binary%20Tree%20Traversal%20(Recursion).csv)
 -- | Medium | Tree, Iteration | [Binary Tree Traversal (Iteration)](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%203.%20Binary%20Tree/Binary%20Tree%20Traversal%20(Iteration).cs)
 
