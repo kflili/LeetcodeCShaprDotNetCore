@@ -1,4 +1,5 @@
 // binary search O(log(n))
+// be careful of overflow for mid*mid
 public class Solution {
     public bool IsPerfectSquare(int num) {
         long start = 0;
