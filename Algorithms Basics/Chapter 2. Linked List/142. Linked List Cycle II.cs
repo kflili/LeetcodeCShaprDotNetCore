@@ -6,11 +6,11 @@
   The fast pointer must travel 2A+2B to catch up. The cycle size is N. 
   Full cycle is also how much more fast pointer has traveled than 
   slow pointer at meeting point.
-    A + B + N = 2A + 2B + 1 (because fast starts at 1 not 0)
-    N = A + B + 1.
-    So the slow need move N - B to reach the cycly start point. i.e. A + 1
-    Therefore slow2 move A, and slow move A, then slow.next == slow is pointing
-    to the cysly starting point.
+    A + B + N = 2A + 2B
+    N = A + B.
+    So the slow need move N - B to reach the cycly start point. i.e. A
+    Therefore slow2 move A - 1 step (slow2 will start at 1), and 
+    slow move A, then slow.next == slow is pointing to the cysly starting point.
  */
 public class Solution {
     public ListNode DetectCycle(ListNode head) {
