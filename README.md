@@ -1,6 +1,6 @@
 # Leetcode C# solution and notes
 
-I will use this repository to make notes for leetcode solutions and sort similar questions into the same group or category.
+I will use this repository to make notes for leetcode solutions and classify the problems by different topics.
 
 ## Solved Problem List
 Total solved: 46
