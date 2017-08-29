@@ -3,7 +3,7 @@
 I will use this repository to make notes for leetcode solutions and classify the problems by different topics.
 
 ## Solved Problem List
-Total solved: 47
+Total solved: 48
 
 ### Algorithms Basics
 
@@ -144,8 +144,8 @@ ID | Difficulty | Tags | Solution
 
 ID | Difficulty | Tags | Solution
 -- | ---------- | ---- | --------
-14 | Easy | String |[Longest Common Prefix](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/top-interview-questions/14.%20Longest%20Common%20Prefix.cs)
-
+14 | Easy | String | [Longest Common Prefix](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/top-interview-questions/14.%20Longest%20Common%20Prefix.cs)
+38 | Easy | String | [Count and Say](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/top-interview-questions/38.%20Count%20and%20Say.cs)
 
 <br />
 <br />
