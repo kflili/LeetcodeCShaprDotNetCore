@@ -3,7 +3,7 @@
 I will use this repository to make notes for leetcode solutions and classify the problems by different topics.
 
 ## Solved Problem List
-Total solved: 46
+Total solved: 47
 
 ### Algorithms Basics
 
@@ -139,6 +139,12 @@ ID | Difficulty | Tags | Solution
 3 | Medium| Hash Table (Dictionary), Two pointer, Sub string, Sliding window |[Longest Substring Without Repeating Characters](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%201.%20Array_String/3.%20Longest%20Substring%20Without%20Repeating%20Characters.cs)
 438 | Easy | Hash Table (Dictionary), Two pointer, Sub string, Sliding window | [Find All Anagrams in a String](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%201.%20Array_String/438.%20Find%20All%20Anagrams%20in%20a%20String.cs)
  -- | Easy | Sliding window for sub string | [SubString Template](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/SubString-topic/Sliding%20Window%20Template.cs)
+
+### top-interview-questions
+
+ID | Difficulty | Tags | Solution
+-- | ---------- | ---- | --------
+14 | Easy | String |[Longest Common Prefix](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/top-interview-questions/14.%20Longest%20Common%20Prefix.cs)
 
 
 <br />
