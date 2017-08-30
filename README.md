@@ -3,7 +3,7 @@
 I will use this repository to make notes for leetcode solutions and classify the problems by different topics.
 
 ## Solved Problem List
-Total solved: 55
+Total solved: 56
 
 ### top-interview-questions
 
@@ -16,8 +16,8 @@ ID | Difficulty | Tags | Solution
 344 | Easy | Two pointers | [Reverse String](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/top-interview-questions/344.%20Reverse%20String.cs)
 350 | Easy | Two pointers, HashMap(Dictionary) | [Intersection of Two Arrays II](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/top-interview-questions/350.%20Intersection%20of%20Two%20Arrays%20II.cs)
 349 | Easy | Two pointers, HashMap(Dictionary) | [Intersection of Two Arrays](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/top-interview-questions/349.%20Intersection%20of%20Two%20Arrays.cs)
-371 | Easy | Bit Manipulation | [Sum of Two Integers](https://github.com/kflili/LeetcodeCShaprDotNetCore/tree/master/Algorithms%20Basics/top-interview-questions)
-
+371 | Easy | Bit Manipulation | [Sum of Two Integers](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/top-interview-questions/371.%20Sum%20of%20Two%20Integers.cs)
+387 | Easy | HashMap(Dictionary), string | [First Unique Character in a String](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/top-interview-questions/387.%20First%20Unique%20Character%20in%20a%20String.cs)
 
 
 ### Algorithms Basics
