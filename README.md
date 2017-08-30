@@ -3,7 +3,7 @@
 I will use this repository to make notes for leetcode solutions and classify the problems by different topics.
 
 ## Solved Problem List
-Total solved: 50
+Total solved: 51
 
 ### top-interview-questions
 
@@ -13,6 +13,7 @@ ID | Difficulty | Tags | Solution
 38 | Easy | String | [Count and Say](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/top-interview-questions/38.%20Count%20and%20Say.cs)
 53 | Easy | Dynamic Programming, Divide and Conquer | [Maximum Subarray](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/top-interview-questions/53.%20Maximum%20Subarray.cs)
 268 | Easy | Array, Bit Manipulation | [Missing Number](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/top-interview-questions/268.%20Missing%20Number.cs)
+344 | Easy | Two pointers | [Reverse String](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/top-interview-questions/344.%20Reverse%20String.cs)
 
 ### Algorithms Basics
 
