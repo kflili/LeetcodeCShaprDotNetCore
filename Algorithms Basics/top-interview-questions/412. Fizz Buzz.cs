@@ -12,7 +12,7 @@ public class Solution {
                 res.Add(i.ToString());
             }
         }
-            return res;
+        return res;
     }
 }
 
@@ -35,6 +35,6 @@ public class Solution {
                 res.Add(i.ToString());
             }
         }
-            return res;
+        return res;
     }
 }
