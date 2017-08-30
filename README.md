@@ -3,7 +3,7 @@
 I will use this repository to make notes for leetcode solutions and classify the problems by different topics.
 
 ## Solved Problem List
-Total solved: 60
+Total solved: 61
 
 ### top-interview-questions
 
@@ -22,6 +22,7 @@ ID | Difficulty | Tags | Solution
 217 | Easy | Dictionary | [Contains Duplicate](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/top-interview-questions/217.%20Contains%20Duplicate.cs)
 219 | Easy | HashMap, HashSet, Sliding window | [Contains Duplicate II](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/top-interview-questions/219.%20Contains%20Duplicate%20II.cs)
 204 | Easy | Math, Array | [Count Primes](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/top-interview-questions/204.%20Count%20Primes.cs)
+202 | Easy | Math, HashSet | [Happy Number](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/top-interview-questions/202.%20Happy%20Number.cs)
 
 
 ### Algorithms Basics
