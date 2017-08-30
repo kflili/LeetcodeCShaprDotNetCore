@@ -3,7 +3,7 @@
 I will use this repository to make notes for leetcode solutions and classify the problems by different topics.
 
 ## Solved Problem List
-Total solved: 58
+Total solved: 60
 
 ### top-interview-questions
 
@@ -20,6 +20,8 @@ ID | Difficulty | Tags | Solution
 387 | Easy | HashMap(Dictionary), string | [First Unique Character in a String](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/top-interview-questions/387.%20First%20Unique%20Character%20in%20a%20String.cs)
 412 | Easy | Math | [Fizz Buzz](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/top-interview-questions/412.%20Fizz%20Buzz.cs)
 217 | Easy | Dictionary | [Contains Duplicate](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/top-interview-questions/217.%20Contains%20Duplicate.cs)
+219 | Easy | HashMap, HashSet, Sliding window | [Contains Duplicate II](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/top-interview-questions/219.%20Contains%20Duplicate%20II.cs)
+204 | Easy | Math, Array | [Count Primes](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/top-interview-questions/204.%20Count%20Primes.cs)
 
 
 ### Algorithms Basics
