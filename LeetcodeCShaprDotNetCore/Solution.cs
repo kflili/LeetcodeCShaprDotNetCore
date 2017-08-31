@@ -5,21 +5,16 @@ using System.Text;
 
 namespace LeetcodeCShaprDotNetCore {
     public class Solution {
-        public IList<IList<int>> Generate(int numRows) {
-            IList<IList<int>> result = new List<IList<int>>();
-            for (int row = 0; row < numRows; row++) {
-                IList<int> list = new List<int>();
-                for (int i = 0; i < row + 1; i++) {
-                    if (i == 0 || i == row) {
-                        list.Add(1);
-                    } else {
-                        var preList = result[row - 1];
-                        list.Add(preList[i - 1] + preList[i]);
-                    }
-                }
-                result.Add(list);
-            }
-            return result;
+        public TreeNode SortedArrayToBST(int[] nums) {
+            return SortedArrayToBST(nums, 0, nums.Length - 1);
+        }
+        private TreeNode SortedArrayToBST(int[] nums, int left, int right) {
+            if (nums == null || nums.Length == 0 || left > right) return null;
+            int mid = left + (right - left) / 2;
+            TreeNode root = new TreeNode(nums[mid]);
+            root.left = SortedArrayToBST(nums, left, mid - 1);
+            root.right = SortedArrayToBST(nums, mid + 1, right);
+            return root;
         }
     }
 }
