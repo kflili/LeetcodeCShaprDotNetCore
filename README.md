@@ -3,7 +3,7 @@
 I will use this repository to make notes for leetcode solutions and classify the problems by different topics.
 
 ## Solved Problem List
-Total solved: 69
+Total solved: 70
 
 ### top-interview-questions
 
@@ -13,6 +13,8 @@ ID | Difficulty | Tags | Solution
 38 | Easy | String | [Count and Say](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/top-interview-questions/38.%20Count%20and%20Say.cs)
 53 | Easy | Dynamic Programming, Divide and Conquer | [Maximum Subarray](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/top-interview-questions/53.%20Maximum%20Subarray.cs)
 118 | Easy | Array, Math | [Pascal's Triangle](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/top-interview-questions/118.%20Pascal's%20Triangle.cs)
+121 | Easy | Array, Dynamic Programming | [Best Time to Buy and Sell Stock](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/top-interview-questions/121.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock.cs)
+122 | Easy | Array | [Best Time to Buy and Sell Stock II](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/top-interview-questions/122.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20II.cs)
 155 | Easy | Stack, Design | [Min Stack](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/top-interview-questions/155.%20Min%20Stack.cs)
 160 | Easy | LinkedList | [Intersection of Two Linked Lists](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/top-interview-questions/160.%20Intersection%20of%20Two%20Linked%20Lists.cs)
 169 | Easy | Dictionary | [Majority Element](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/top-interview-questions/169.%20Majority%20Element.cs)
