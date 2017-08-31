@@ -3,7 +3,7 @@
 I will use this repository to make notes for leetcode solutions and classify the problems by different topics.
 
 ## Solved Problem List
-Total solved: 64
+Total solved: 65
 
 ### top-interview-questions
 
@@ -12,20 +12,22 @@ ID | Difficulty | Tags | Solution
 14 | Easy | String | [Longest Common Prefix](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/top-interview-questions/14.%20Longest%20Common%20Prefix.cs)
 38 | Easy | String | [Count and Say](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/top-interview-questions/38.%20Count%20and%20Say.cs)
 53 | Easy | Dynamic Programming, Divide and Conquer | [Maximum Subarray](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/top-interview-questions/53.%20Maximum%20Subarray.cs)
+171 | Easy | Math | [Excel Sheet Column Number](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/top-interview-questions/171.%20Excel%20Sheet%20Column%20Number.cs)
+172 | Easy | Math | [Factorial Trailing Zeroes](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/top-interview-questions/172.%20Factorial%20Trailing%20Zeroes.cs)
+189 | Easy | Arrays, Two pointers | [Rotate Array](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/top-interview-questions/189.%20Rotate%20Array.cs)
+198 | Easy | Dynamic Programming | [House Robber](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/top-interview-questions/198.%20House%20Robber.cs)
+202 | Easy | Math, HashSet | [Happy Number](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/top-interview-questions/202.%20Happy%20Number.cs)
+204 | Easy | Math, Array | [Count Primes](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/top-interview-questions/204.%20Count%20Primes.cs)
+217 | Easy | Dictionary | [Contains Duplicate](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/top-interview-questions/217.%20Contains%20Duplicate.cs)
+219 | Easy | HashMap, HashSet, Sliding window | [Contains Duplicate II](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/top-interview-questions/219.%20Contains%20Duplicate%20II.cs)
 268 | Easy | Array, Bit Manipulation | [Missing Number](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/top-interview-questions/268.%20Missing%20Number.cs)
 344 | Easy | Two pointers | [Reverse String](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/top-interview-questions/344.%20Reverse%20String.cs)
-350 | Easy | Two pointers, HashMap(Dictionary) | [Intersection of Two Arrays II](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/top-interview-questions/350.%20Intersection%20of%20Two%20Arrays%20II.cs)
 349 | Easy | Two pointers, HashMap(Dictionary) | [Intersection of Two Arrays](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/top-interview-questions/349.%20Intersection%20of%20Two%20Arrays.cs)
+350 | Easy | Two pointers, HashMap(Dictionary) | [Intersection of Two Arrays II](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/top-interview-questions/350.%20Intersection%20of%20Two%20Arrays%20II.cs)
 371 | Easy | Bit Manipulation | [Sum of Two Integers](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/top-interview-questions/371.%20Sum%20of%20Two%20Integers.cs)
 387 | Easy | HashMap(Dictionary), string | [First Unique Character in a String](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/top-interview-questions/387.%20First%20Unique%20Character%20in%20a%20String.cs)
 412 | Easy | Math | [Fizz Buzz](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/top-interview-questions/412.%20Fizz%20Buzz.cs)
-217 | Easy | Dictionary | [Contains Duplicate](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/top-interview-questions/217.%20Contains%20Duplicate.cs)
-219 | Easy | HashMap, HashSet, Sliding window | [Contains Duplicate II](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/top-interview-questions/219.%20Contains%20Duplicate%20II.cs)
-204 | Easy | Math, Array | [Count Primes](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/top-interview-questions/204.%20Count%20Primes.cs)
-202 | Easy | Math, HashSet | [Happy Number](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/top-interview-questions/202.%20Happy%20Number.cs)
-189 | Easy | Arrays, Two pointers | [Rotate Array](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/top-interview-questions/189.%20Rotate%20Array.cs)
-198 | Easy | Dynamic Programming | [House Robber](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/top-interview-questions/198.%20House%20Robber.cs)
-172 | Easy | Math | [Factorial Trailing Zeroes](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/top-interview-questions/172.%20Factorial%20Trailing%20Zeroes.cs)
+
 
 ### Algorithms Basics
 
