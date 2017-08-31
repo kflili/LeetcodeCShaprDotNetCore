@@ -3,7 +3,7 @@
 I will use this repository to make notes for leetcode solutions and classify the problems by different topics.
 
 ## Solved Problem List
-Total solved: 62
+Total solved: 64
 
 ### top-interview-questions
 
@@ -25,7 +25,7 @@ ID | Difficulty | Tags | Solution
 202 | Easy | Math, HashSet | [Happy Number](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/top-interview-questions/202.%20Happy%20Number.cs)
 189 | Easy | Arrays, Two pointers | [Rotate Array](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/top-interview-questions/189.%20Rotate%20Array.cs)
 198 | Easy | Dynamic Programming | [House Robber](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/top-interview-questions/198.%20House%20Robber.cs)
-
+172 | Easy | Math | [Factorial Trailing Zeroes](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/top-interview-questions/172.%20Factorial%20Trailing%20Zeroes.cs)
 
 ### Algorithms Basics
 
