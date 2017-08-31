@@ -24,6 +24,7 @@ ID | Difficulty | Tags | Solution
 204 | Easy | Math, Array | [Count Primes](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/top-interview-questions/204.%20Count%20Primes.cs)
 202 | Easy | Math, HashSet | [Happy Number](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/top-interview-questions/202.%20Happy%20Number.cs)
 189 | Easy | Arrays, Two pointers | [Rotate Array](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/top-interview-questions/189.%20Rotate%20Array.cs)
+198 | Easy | Dynamic Programming | [House Robber](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/top-interview-questions/198.%20House%20Robber.cs)
 
 
 ### Algorithms Basics
