@@ -1,30 +1,25 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+
+
 namespace LeetcodeCShaprDotNetCore {
     public class Solution {
-        public bool IsPalindrome(string s) {
-            if (s.Length == 0) return true;
-            int left = 0, right = s.Length - 1;
-            char leftChar, rightChar;
-            while (left <= right) {
-                leftChar = s[left];
-                rightChar = s[right];
-                if (!char.IsLetterOrDigit(leftChar)){
-                    left++;
-                } else if (!char.IsLetterOrDigit(rightChar)) {
-                    right--;
-                } else {
-                    if (char.ToLower(leftChar) != char.ToLower(rightChar)) {
-                        return false;
+        public IList<IList<int>> Generate(int numRows) {
+            IList<IList<int>> result = new List<IList<int>>();
+            for (int row = 0; row < numRows; row++) {
+                IList<int> list = new List<int>();
+                for (int i = 0; i < row + 1; i++) {
+                    if (i == 0 || i == row) {
+                        list.Add(1);
+                    } else {
+                        var preList = result[row - 1];
+                        list.Add(preList[i - 1] + preList[i]);
                     }
-                    left++;
-                    right--;
                 }
+                result.Add(list);
             }
-            return true;
+            return result;
         }
     }
 }
-
-// 12321  1234
