@@ -3,7 +3,7 @@
 I will use this repository to make notes for leetcode solutions and classify the problems by different topics.
 
 ## Solved Problem List
-Total solved: 73
+Total solved: 74
 
 ### top-interview-questions
 
@@ -12,6 +12,7 @@ ID | Difficulty | Tags | Solution
 14 | Easy | String | [Longest Common Prefix](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/top-interview-questions/14.%20Longest%20Common%20Prefix.cs)
 38 | Easy | String | [Count and Say](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/top-interview-questions/38.%20Count%20and%20Say.cs)
 53 | Easy | Dynamic Programming, Divide and Conquer | [Maximum Subarray](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/top-interview-questions/53.%20Maximum%20Subarray.cs)
+70 | Easy | Dynamic Programming | [Climbing Stairs](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/top-interview-questions/70.%20Climbing%20Stairs.cs)
 101 | Easy | Tree | [Symmetric Tree](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/top-interview-questions/101.%20Symmetric%20Tree.cs)
 108 | Easy | Tree, DFS | [Convert Sorted Array to Binary Search Tree](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/top-interview-questions/108.%20Convert%20Sorted%20Array%20to%20Binary%20Search%20Tree.cs)
 118 | Easy | Array, Math | [Pascal's Triangle](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/top-interview-questions/118.%20Pascal's%20Triangle.cs)
