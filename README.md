@@ -3,12 +3,13 @@
 I will use this repository to make notes for leetcode solutions and classify the problems by different topics.
 
 ## Solved Problem List
-Total solved: 77
+Total solved: 78
 
 ### top-interview-questions
 
 ID | Difficulty | Tags | Solution | Similar Problem
 -- | ---------- | ---- | -------- | ---------------
+13 | Easy | String, Math | [Roman to Integer](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/top-interview-questions/13.%20Roman%20to%20Integer.cs)
 14 | Easy | String | [Longest Common Prefix](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/top-interview-questions/14.%20Longest%20Common%20Prefix.cs)
 38 | Easy | String | [Count and Say](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/top-interview-questions/38.%20Count%20and%20Say.cs)
 53 | Easy | Dynamic Programming, Divide and Conquer | [Maximum Subarray](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/top-interview-questions/53.%20Maximum%20Subarray.cs)
@@ -176,7 +177,19 @@ ID | Difficulty | Tags | Solution
 438 | Easy | Hash Table (Dictionary), Two pointer, Sub string, Sliding window | [Find All Anagrams in a String](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%201.%20Array_String/438.%20Find%20All%20Anagrams%20in%20a%20String.cs)
 -- | Easy | Sliding window for sub string | [SubString Template](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/SubString-topic/Sliding%20Window%20Template.cs)
 
+###
+13. Roman to Integer
 
+#### Common knowledge
+Symbol | I | V | X | L | C | D | M
+Value  | 1 | 5 | 10 | 50 | 100 | 500 | 1000
+
+**I** placed before **V** or **X** indicates one less,  so **IV** is 4 (5 - 1) and **IX** is 9 (10 - 9)
+ 
+ **X** placed before **L** or **C** indicates ten less, so XL is 40 (50 - 10) and **XC** is 90 (100 - 10)
+ 
+ **C** placed before **D** or **M** indicates a hundred less, so four hundred is **CD** (a hundred less than five 
+hundred) and nine hundred is **CM** (a hundred less than a thousand)
 
 <br />
 <br />
