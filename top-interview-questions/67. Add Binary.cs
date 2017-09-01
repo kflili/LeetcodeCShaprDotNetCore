@@ -6,8 +6,9 @@ public class Solution {
             int sum = carry;
             if (i >= 0) sum += a[i--] - '0';
             if (j >= 0) sum += b[j--] - '0';
-            sb.Insert(0, sum % 2);
-            carry = sum / 2;
+            // keep get the digit, and insert to left site
+            sb.Insert(0, sum % 2);  // sum % 2 get the digit,
+            carry = sum / 2;    // sum / 2 get the carry for adding to left bit
         }
         if (carry > 0) sb.Insert(0, carry);
         return sb.ToString();
