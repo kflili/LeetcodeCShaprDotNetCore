@@ -25,3 +25,36 @@ public class Solution {
         }
     }
 }
+
+// Dynamic Programming
+/*
+consider whether using this new character as end could produce new palindrome 
+string of length (current length +1) or (current length +2), no more than length + 3;
+ */
+public class Solution {
+    public String LongestPalindrome(String s) {
+        int maxLen = 0;
+        int start = -1;
+        for (int i = 0; i < s.Length; i++) {
+            if (IsPalindrome(s, i - maxLen - 1, i)) {
+                start = i - maxLen - 1;
+                maxLen += 2;
+            } else if (IsPalindrome(s, i - maxLen, i)) {
+                start = i - maxLen;
+                maxLen += 1;
+            }
+        }
+        return s.Substring(start, maxLen);
+    }
+    private bool IsPalindrome(string s, int start, int end) {
+        if (start < 0) {
+            return false;
+        }
+        while (start < end) {
+            if (s[start++] != s[end--]) {
+                return false;
+            }
+        }
+        return true;
+    }
+}
