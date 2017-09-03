@@ -3,7 +3,7 @@
 I will use this repository to make notes for leetcode solutions and classify the problems by different topics.
 
 ## Solved Problem List
-Total solved: 84
+Total solved: 85
 
 ### top-interview-questions
 
@@ -16,7 +16,8 @@ ID | Difficulty | Tags | Solution | Similar Problem
 14 | Easy | String | [Longest Common Prefix](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/top-interview-questions/14.%20Longest%20Common%20Prefix.cs)
 15 | Medium | Array, Two pointers | [3Sum](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/top-interview-questions/15.%203Sum.cs)
 17 | Medium | string, backtracking | [Letter Combinations of a Phone Number](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/top-interview-questions/17.%20Letter%20Combinations%20of%20a%20Phone%20Number.cs)
-19 | LinkedList,  Two Pointers | [Remove Nth Node From End of List](https://github.com/kflili/LeetcodeCShaprDotNetCore/tree/master/top-interview-questions)
+19 | Medium | LinkedList,  Two Pointers | [Remove Nth Node From End of List](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/top-interview-questions/19.%20Remove%20Nth%20Node%20From%20End%20of%20List.cs)
+22 | Medium | BackTracking, DFS | [Generate Parentheses](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/top-interview-questions/22.%20Generate%20Parentheses.cs)
 38 | Easy | String | [Count and Say](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/top-interview-questions/38.%20Count%20and%20Say.cs)
 53 | Easy | Dynamic Programming, Divide and Conquer | [Maximum Subarray](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/top-interview-questions/53.%20Maximum%20Subarray.cs)
 66 | Easy | Array, Math | [Plus One](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/top-interview-questions/66.%20Plus%20One.cs) | 67
