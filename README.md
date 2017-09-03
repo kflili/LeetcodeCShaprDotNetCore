@@ -3,7 +3,13 @@
 I will use this repository to make notes for leetcode solutions and classify the problems by different topics.
 
 ## Solved Problem List
-Total solved: 85
+Total solved: 86
+
+### microsoft-labed
+ID | Difficulty | Tags | Solution | Similar Problem
+-- | ---------- | ---- | -------- | ---------------
+138 | Medium | LinkedList, Dictionary | [Copy List with Random Pointer](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/top-interview-questions/138.%20Copy%20List%20with%20Random%20Pointer.cs)
+
 
 ### top-interview-questions
 
