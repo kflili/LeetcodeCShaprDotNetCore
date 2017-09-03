@@ -3,7 +3,7 @@
 I will use this repository to make notes for leetcode solutions and classify the problems by different topics.
 
 ## Solved Problem List
-Total solved: 92
+Total solved: 93
 
 ### microsoft-labed
 ID | Difficulty | Tags | Solution | Similar Problem
@@ -15,6 +15,7 @@ ID | Difficulty | Tags | Solution | Similar Problem
 235 | Medium | BST | [Lowest Common Ancestor of a Binary Search Tree](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/top-interview-questions/235.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Search%20Tree.cs)
 200 | Medium | BFS, DFS | [Number of Islands]https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/top-interview-questions/200.%20Number%20of%20Islands.cs()
 236 | Medium | Tree | [Lowest Common Ancestor of a Binary Tree](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/top-interview-questions/236.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree.cs)
+48 | Medium | Array | [Rotate Image](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/top-interview-questions/48.%20Rotate%20Image.cs)
 
 
 ### top-interview-questions
