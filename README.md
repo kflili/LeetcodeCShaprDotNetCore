@@ -3,7 +3,7 @@
 I will use this repository to make notes for leetcode solutions and classify the problems by different topics.
 
 ## Solved Problem List
-Total solved: 97
+Total solved: 98
 
 ### microsoft-labed
 ID | Difficulty | Tags | Solution | Similar Problem
@@ -20,6 +20,7 @@ ID | Difficulty | Tags | Solution | Similar Problem
 186 | Medium | String | [Reverse Words in a String II](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/top-interview-questions/186.%20Reverse%20Words%20in%20a%20String%20II.cs)
 103 | Medium | Tree, BFS, Stack | [Binary Tree Zigzag Level Order Traversal](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/top-interview-questions/103.%20Binary%20Tree%20Zigzag%20Level%20Order%20Traversal.cs)
 116 | Medium | Tree, DFS | [Populating Next Right Pointers in Each Node](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/top-interview-questions/116.%20Populating%20Next%20Right%20Pointers%20in%20Each%20Node.cs)
+75 | Medium | Array, Two pointers, Sort | [Sort Colors](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/top-interview-questions/75.%20Sort%20Colors.cs)
 
 
 ### top-interview-questions
