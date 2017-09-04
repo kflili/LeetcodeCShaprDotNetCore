@@ -3,7 +3,7 @@
 I will use this repository to make notes for leetcode solutions and classify the problems by different topics.
 
 ## Solved Problem List
-Total solved: 99
+Total solved: 100
 
 ### microsoft-labed
 ID | Difficulty | Tags | Solution | Similar Problem
@@ -22,6 +22,7 @@ ID | Difficulty | Tags | Solution | Similar Problem
 116 | Medium | Tree, DFS | [Populating Next Right Pointers in Each Node](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/top-interview-questions/116.%20Populating%20Next%20Right%20Pointers%20in%20Each%20Node.cs)
 75 | Medium | Array, Two pointers, Sort | [Sort Colors](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/top-interview-questions/75.%20Sort%20Colors.cs)
 73 | Medium | Array | [Set Matrix Zeroes](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/top-interview-questions/73.%20Set%20Matrix%20Zeroes.cs)
+238 | Medium | Array | [Product of Array Except Self](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/top-interview-questions/238.%20Product%20of%20Array%20Except%20Self.cs)
 
 
 ### top-interview-questions
