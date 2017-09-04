@@ -3,7 +3,7 @@
 I will use this repository to make notes for leetcode solutions and classify the problems by different topics.
 
 ## Solved Problem List
-Total solved: 95
+Total solved: 96
 
 ### microsoft-labed
 ID | Difficulty | Tags | Solution | Similar Problem
