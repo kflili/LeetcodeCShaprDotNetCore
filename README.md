@@ -3,7 +3,7 @@
 I will use this repository to make notes for leetcode solutions and classify the problems by different topics.
 
 ## Solved Problem List
-Total solved: 100
+Total solved: 101
 
 ### microsoft-labed
 ID | Difficulty | Tags | Solution | Similar Problem
@@ -23,6 +23,7 @@ ID | Difficulty | Tags | Solution | Similar Problem
 75 | Medium | Array, Two pointers, Sort | [Sort Colors](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/top-interview-questions/75.%20Sort%20Colors.cs)
 73 | Medium | Array | [Set Matrix Zeroes](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/top-interview-questions/73.%20Set%20Matrix%20Zeroes.cs)
 238 | Medium | Array | [Product of Array Except Self](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/top-interview-questions/238.%20Product%20of%20Array%20Except%20Self.cs)
+168 | Easy | Math, char | [Excel Sheet Column Title](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/top-interview-questions/168.%20Excel%20Sheet%20Column%20Title.cs) | 171
 
 
 ### top-interview-questions
@@ -52,7 +53,7 @@ ID | Difficulty | Tags | Solution | Similar Problem
 155 | Easy | Stack, Design | [Min Stack](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/top-interview-questions/155.%20Min%20Stack.cs)
 160 | Easy | LinkedList | [Intersection of Two Linked Lists](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/top-interview-questions/160.%20Intersection%20of%20Two%20Linked%20Lists.cs)
 169 | Easy | Dictionary | [Majority Element](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/top-interview-questions/169.%20Majority%20Element.cs)
-171 | Easy | Math | [Excel Sheet Column Number](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/top-interview-questions/171.%20Excel%20Sheet%20Column%20Number.cs)
+171 | Easy | Math | [Excel Sheet Column Number](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/top-interview-questions/171.%20Excel%20Sheet%20Column%20Number.cs) | 168
 172 | Easy | Math | [Factorial Trailing Zeroes](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/top-interview-questions/172.%20Factorial%20Trailing%20Zeroes.cs)
 189 | Easy | Arrays, Two pointers | [Rotate Array](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/top-interview-questions/189.%20Rotate%20Array.cs)
 198 | Easy | Dynamic Programming | [House Robber](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/top-interview-questions/198.%20House%20Robber.cs)
