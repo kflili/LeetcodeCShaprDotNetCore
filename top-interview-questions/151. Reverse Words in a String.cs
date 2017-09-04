@@ -46,3 +46,19 @@ public class Solution {
         return new string(s, 0, startIndex);
     }
 }
+
+// use buildin trim and split
+public class Solution {
+    public string ReverseWords(string s) {
+        if (s == null || s.Length == 0 ) return "";
+        string[] array = s.Split(' ');
+        StringBuilder sb = new StringBuilder();
+        for (int i = array.Length - 1; i >= 0; i--) {
+            if (array[i].Trim() != "") {
+                sb.Append(array[i]).Append(" ");
+            }
+        }
+        // remove last " "
+        return sb.ToString().TrimStart().TrimEnd();
+    }
+}
