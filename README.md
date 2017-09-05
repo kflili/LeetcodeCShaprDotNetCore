@@ -3,7 +3,7 @@
 I will use this repository to make notes for leetcode solutions and classify the problems by different topics.
 
 ## Solved Problem List
-Total solved: 101
+Total solved: 102
 
 ### microsoft-labed
 ID | Difficulty | Tags | Solution | Similar Problem
@@ -24,6 +24,7 @@ ID | Difficulty | Tags | Solution | Similar Problem
 73 | Medium | Array | [Set Matrix Zeroes](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/top-interview-questions/73.%20Set%20Matrix%20Zeroes.cs)
 238 | Medium | Array | [Product of Array Except Self](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/top-interview-questions/238.%20Product%20of%20Array%20Except%20Self.cs)
 168 | Easy | Math, char | [Excel Sheet Column Title](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/top-interview-questions/168.%20Excel%20Sheet%20Column%20Title.cs) | 171
+117 | Medium | Tree | [Populating Next Right Pointers in Each Node II](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/top-interview-questions/117.%20Populating%20Next%20Right%20Pointers%20in%20Each%20Node%20II.cs)
 
 
 ### top-interview-questions
