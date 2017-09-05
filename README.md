@@ -3,7 +3,7 @@
 I will use this repository to make notes for leetcode solutions and classify the problems by different topics.
 
 ## Solved Problem List
-Total solved: 103
+Total solved: 104
 
 ### microsoft-labed
 ID | Difficulty | Tags | Solution | Similar Problem
@@ -26,6 +26,8 @@ ID | Difficulty | Tags | Solution | Similar Problem
 168 | Easy | Math, char | [Excel Sheet Column Title](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/top-interview-questions/168.%20Excel%20Sheet%20Column%20Title.cs) | 171
 117 | Medium | Tree | [Populating Next Right Pointers in Each Node II](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/top-interview-questions/117.%20Populating%20Next%20Right%20Pointers%20in%20Each%20Node%20II.cs)
 33 | Medium | Binary Search, Array | [Search in Rotated Sorted Array](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/top-interview-questions/33.%20Search%20in%20Rotated%20Sorted%20Array.cs)
+153 | Medium | Binary Search, Array | [Find Minimum in Rotated Sorted Array](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/top-interview-questions/153.%20Find%20Minimum%20in%20Rotated%20Sorted%20Array.cs)
+
 
 
 ### top-interview-questions
