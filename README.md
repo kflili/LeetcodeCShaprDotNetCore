@@ -3,7 +3,7 @@
 I will use this repository to make notes for leetcode solutions and classify the problems by different topics.
 
 ## Solved Problem List
-Total solved: 107
+Total solved: 108
 
 ### microsoft-labed
 ID | Difficulty | Tags | Solution | Similar Problem
@@ -29,6 +29,7 @@ ID | Difficulty | Tags | Solution | Similar Problem
 153 | Medium | Binary Search, Array | [Find Minimum in Rotated Sorted Array](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/top-interview-questions/153.%20Find%20Minimum%20in%20Rotated%20Sorted%20Array.cs)
 173 | Medium | Tree, Stack, Degine | [Binary Search Tree Iterator](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/top-interview-questions/173.%20Binary%20Search%20Tree%20Iterator.cs)
 215 | Medium | Divide and Conquer | [Kth Largest Element in an Array](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/top-interview-questions/215.%20Kth%20Largest%20Element%20in%20an%20Array.cs)
+106 | Medium | Tree, DFS, Array | [Construct Binary Tree from Inorder and Postorder Traversal](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/top-interview-questions/106.%20Construct%20Binary%20Tree%20from%20Inorder%20and%20Postorder%20Traversal.cs)
 
 
 
