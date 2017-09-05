@@ -3,7 +3,7 @@
 I will use this repository to make notes for leetcode solutions and classify the problems by different topics.
 
 ## Solved Problem List
-Total solved: 106
+Total solved: 107
 
 ### microsoft-labed
 ID | Difficulty | Tags | Solution | Similar Problem
@@ -74,6 +74,7 @@ ID | Difficulty | Tags | Solution | Similar Problem
 371 | Easy | Bit Manipulation | [Sum of Two Integers](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/top-interview-questions/371.%20Sum%20of%20Two%20Integers.cs)
 387 | Easy | HashMap(Dictionary), string | [First Unique Character in a String](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/top-interview-questions/387.%20First%20Unique%20Character%20in%20a%20String.cs)
 412 | Easy | Math | [Fizz Buzz](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/top-interview-questions/412.%20Fizz%20Buzz.cs)
+105 | Medium | Tree, DFS, Array | [Construct Binary Tree from Preorder and Inorder Traversal](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/top-interview-questions/105.%20Construct%20Binary%20Tree%20from%20Preorder%20and%20Inorder%20Traversal.cs)
 
 
 ### Algorithms Basics
