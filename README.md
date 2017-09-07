@@ -13,7 +13,7 @@ ID | Difficulty | Tags | Solution | Similar Problem
 273 | Hard | Math, string | [Integer to English Words](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/top-interview-questions/273.%20Integer%20to%20English%20Words.cs)
 54 | Medium | Array | [Spiral Matrix](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/top-interview-questions/54.%20Spiral%20Matrix.cs)
 235 | Medium | BST | [Lowest Common Ancestor of a Binary Search Tree](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/top-interview-questions/235.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Search%20Tree.cs)
-200 | Medium | BFS, DFS | [Number of Islands]https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/top-interview-questions/200.%20Number%20of%20Islands.cs()
+200 | Medium | BFS, DFS | [Number of Islands](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/top-interview-questions/200.%20Number%20of%20Islands.cs)
 236 | Medium | Tree | [Lowest Common Ancestor of a Binary Tree](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/top-interview-questions/236.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree.cs)
 48 | Medium | Array | [Rotate Image](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/top-interview-questions/48.%20Rotate%20Image.cs)
 445 | Medium | LinkedList, Stack | [Add Two Numbers II](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/top-interview-questions/445.%20Add%20Two%20Numbers%20II.cs)
