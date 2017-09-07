@@ -18,7 +18,7 @@ ORDER BY Salary
 
 --solution 3, using Row_Number--
 SELECT Salary FROM (
-    SELECT Salary, ROW_NUMBER() OVER (ORDER BY salary DESC) rn 
+    SELECT Salary, ROW_NUMBER() OVER (ORDER BY salary DESC) AS rn 
     FROM Employee
 ) AS Emp
 WHERE rn = 2; 
