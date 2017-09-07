@@ -8,10 +8,12 @@ Total solved: 108
 ### microsoft-labed
 ID | Difficulty | Tags | Solution | Similar Problem
 -- | ---------- | ---- | -------- | ---------------
+206 | Easy | Linked List | [Reverse Linked List](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%202.%20Linked%20List/206.%20Reverse%20Linked%20List.cs)
 138 | Medium | LinkedList, Dictionary | [Copy List with Random Pointer](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/top-interview-questions/138.%20Copy%20List%20with%20Random%20Pointer.cs)
 419 | Medium | Two dimentional array | [Battleships in a Board](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/top-interview-questions/419.%20Battleships%20in%20a%20Board.cs)
 273 | Hard | Math, string | [Integer to English Words](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/top-interview-questions/273.%20Integer%20to%20English%20Words.cs)
 54 | Medium | Array | [Spiral Matrix](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/top-interview-questions/54.%20Spiral%20Matrix.cs)
+171 | Easy | Math | [Excel Sheet Column Number](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/top-interview-questions/171.%20Excel%20Sheet%20Column%20Number.cs) | 168
 235 | Medium | BST | [Lowest Common Ancestor of a Binary Search Tree](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/top-interview-questions/235.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Search%20Tree.cs)
 200 | Medium | BFS, DFS | [Number of Islands](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/top-interview-questions/200.%20Number%20of%20Islands.cs)
 236 | Medium | Tree | [Lowest Common Ancestor of a Binary Tree](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/top-interview-questions/236.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree.cs)
