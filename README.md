@@ -16,6 +16,7 @@ ID | Difficulty | Tags | Solution | Similar Problem
 171 | Easy | Math | [Excel Sheet Column Number](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/top-interview-questions/171.%20Excel%20Sheet%20Column%20Number.cs) | 168
 235 | Medium | BST | [Lowest Common Ancestor of a Binary Search Tree](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/top-interview-questions/235.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Search%20Tree.cs)
 200 | Medium | BFS, DFS | [Number of Islands](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/top-interview-questions/200.%20Number%20of%20Islands.cs)
+88 | Easy | Two pointers | [Merge Sorted Array](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/Algorithms%20Basics/Chapter%202.%20Linked%20List/88.%20Merge%20Sorted%20Array.cs)
 236 | Medium | Tree | [Lowest Common Ancestor of a Binary Tree](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/top-interview-questions/236.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree.cs)
 48 | Medium | Array | [Rotate Image](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/top-interview-questions/48.%20Rotate%20Image.cs)
 445 | Medium | LinkedList, Stack | [Add Two Numbers II](https://github.com/kflili/LeetcodeCShaprDotNetCore/blob/master/top-interview-questions/445.%20Add%20Two%20Numbers%20II.cs)
