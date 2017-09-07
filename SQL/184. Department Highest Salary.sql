@@ -7,7 +7,7 @@ FROM
         JOIN
     Department ON Employee.DepartmentId = Department.Id
 WHERE
-    (Employee.DepartmentId , Salary) IN
+    (Employee.DepartmentId, Salary) IN
     (   SELECT
             DepartmentId, MAX(Salary)
         FROM
