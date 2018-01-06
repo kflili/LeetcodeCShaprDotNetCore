@@ -6,12 +6,14 @@ public class Solution {
         }
         var dict = new Dictionary<int, int>();
         for (int i = 0; i < nums.Length; i++) {
-            int complement = target - nums[i];
+            var cur = nums[i];
+            var complement = target - cur;
             if (dict.ContainsKey(complement)) {
                 result = new int[] { dict[complement], i };
                 break;
             }
-            dict[nums[i]] = i;
+            // If using dict.Add(cur, i) will get exception when value cur already exists in dict.
+            dict[cur] = i;
         }
         return result;
     }
