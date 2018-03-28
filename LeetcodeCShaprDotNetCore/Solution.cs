@@ -2,7 +2,10 @@
 using System.Collections.Generic;
 using System.Text;
 
-
-namespace LeetcodeCShaprDotNetCore {
-    
+namespace LeetcodeCShaprDotNetCore
+{
+    public class Solution
+    {
+        
+    }
 }

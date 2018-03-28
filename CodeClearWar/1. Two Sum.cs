@@ -12,8 +12,7 @@ public class Solution {
                 result = new int[] { dict[completement], i };
                 break;
             }
-            if (!dict.ContainsKey(cur))
-            {
+            if (!dict.ContainsKey(cur)) {
                 dict[cur] = i;
             }
         }
