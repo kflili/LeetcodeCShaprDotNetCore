@@ -7,8 +7,8 @@ public class Solution {
         q.Enqueue(root);
         while (q.Count > 0) {
             var node = q.Dequeue();
-            var completment = k - node.val;
-            if (set.Contains(completment)) {
+            var complement = k - node.val;
+            if (set.Contains(complement)) {
                 return true;
             }
             set.Add(node.val);
@@ -25,7 +25,8 @@ public class Solution {
     }
     private bool Find(TreeNode root, int k, HashSet<int> set) {
         if (root == null) return false;
-        if (set.Contains(k - root.val)) return true;
+        var complement = k - root.val;
+        if (set.Contains(complement)) return true;
         set.Add(root.val);
         return Find(root.left, k, set) || Find(root.right, k, set);
     }
@@ -33,23 +34,26 @@ public class Solution {
     // 3 Transfer BST to ordering list, then use two pointers to do the twoSum
     public bool FindTarget(TreeNode root, int k) {
         if (root == null) return false;
-        List<int> list = new List<int>();
+        var list = new List<int>();
         InOrderTranverse(root, list);
         for (int i = 0, j = list.Count - 1; i < j;) {
-            var sum = list[i] + list[j];
-            if (sum == k) return true;
-            if (sum < k) {
-                i++;
-            } else {
-                j--;
-            }
+            var v = list[i] + list[j];
+            if (v == k) return true;
+            else if (v < k) i++;
+            else j--;
         }
         return false;
     }
     private void InOrderTranverse(TreeNode root, List<int> list) {
-        if (root == null) return;
-        InOrderTranverse(root.left, list);
+        if (root.left != null) InOrderTranverse(root.left, list);
         list.Add(root.val);
-        InOrderTranverse(root.right, list);
+        if (root.right != null) InOrderTranverse(root.right, list);
     }
 }
+
+/*
+Next challenges:
+Serialize and Deserialize BST
+Maximum Binary Tree
+Print Binary Tree
+ */

@@ -59,3 +59,10 @@ public class Solution {
         }
     }
 }
+
+/*
+Next challenges: 
+3Sum Closest
+4Sum
+3Sum Smaller
+ */

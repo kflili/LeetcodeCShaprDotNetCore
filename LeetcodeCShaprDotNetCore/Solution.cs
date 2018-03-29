@@ -4,8 +4,5 @@ using System.Text;
 
 namespace LeetcodeCShaprDotNetCore
 {
-    public class Solution
-    {
-        
-    }
+
 }
