@@ -6,17 +6,30 @@ namespace LeetcodeCShaprDotNetCore
 {
     public class Solution
     {
-        public bool IsPalindrome(string s)
+        public ListNode RotateRight(ListNode head, int k)
         {
-            int left = 0, right = s.Length - 1;
-            while (left < right)
+            if (head == null || head.next == null) return head;
+            // get length
+            int len = 1;
+            ListNode tail = head;
+            while (tail.next != null)
             {
-                while (left < right && !char.IsLetterOrDigit(s[left])) left++;
-                while (left < right && !char.IsLetterOrDigit(s[right])) right--;
-                if (char.ToLower(s[left]) != char.ToLower(s[right])) return false;
-                left++; right--;
+                tail = tail.next;
+                len++;
             }
-            return true;
+            // connect circle
+            tail.next = head;
+            // find new head;
+            var n = len - k % len;
+            while (n > 0)
+            {
+                tail = head;
+                head = head.next;
+                n--;
+            }
+            // cut before the new head
+            tail.next = null;
+            return head;
         }
     }
 }
