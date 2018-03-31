@@ -12,7 +12,8 @@ The core approach for all the two sums, is re-mapping the <key,value>.
 to get the value, index.
 
 That's it! Just do re-mapping, trade off is O(n) space vs O(n) time.
-
+The solution is 
+    O(n) runtime, O(n) space
  */
 public class Solution {
     public int[] TwoSum(int[] nums, int target) {
@@ -23,9 +24,7 @@ public class Solution {
             if (dict.ContainsKey(complement)) {
                 return result = new int[] { dict[complement], i };
             }
-            if (!dict.ContainsKey(cur)) {
-                dict[cur] = i;
-            }
+            dict[cur] = i;
         }
         throw new Exception("No two sum solution");
     }
