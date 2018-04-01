@@ -4,32 +4,35 @@ using System.Text;
 
 namespace LeetcodeCShaprDotNetCore
 {
+
     public class Solution
     {
-        public ListNode RotateRight(ListNode head, int k)
+        private static readonly int maxDiv10 = int.MaxValue / 10;
+        public static int MyAtoi(string str)
         {
-            if (head == null || head.next == null) return head;
-            // get length
-            int len = 1;
-            ListNode tail = head;
-            while (tail.next != null)
-            {
-                tail = tail.next;
-                len++;
+            int i = 0, n = str.Length;
+            while (i < n && char.IsWhiteSpace(str[i])) i++;
+            int sign = 1;
+            if (i < n && str[i] == '+') {
+                i++;
             }
-            // connect circle
-            tail.next = head;
-            // find new head;
-            var n = len - k % len;
-            while (n > 0)
+            else if (i < n && str[i] == '-')
             {
-                tail = head;
-                head = head.next;
-                n--;
+                sign = -1;
+                i++;
             }
-            // cut before the new head
-            tail.next = null;
-            return head;
+            int num = 0;
+            while (i < n && char.IsDigit(str[i]))
+            {
+                int digit = str[i] - '0';
+                if (num > maxDiv10 || num == maxDiv10 && digit >= 8)
+                {
+                    return sign == 1 ? int.MaxValue : int.MinValue;
+                }
+                num = num * 10 + digit;
+                i++;
+            }
+            return sign * num;
         }
     }
 }
