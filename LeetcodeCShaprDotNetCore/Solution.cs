@@ -7,32 +7,25 @@ namespace LeetcodeCShaprDotNetCore
 
     public class Solution
     {
-        private static readonly int maxDiv10 = int.MaxValue / 10;
-        public static int MyAtoi(string str)
+        public IList<string> FindMissingRanges(int[] vals, int start, int end)
         {
-            int i = 0, n = str.Length;
-            while (i < n && char.IsWhiteSpace(str[i])) i++;
-            int sign = 1;
-            if (i < n && str[i] == '+') {
-                i++;
-            }
-            else if (i < n && str[i] == '-')
+            var ranges = new List<string>();
+            int prev = start - 1;
+            for (int i = 0; i <= vals.Length; i++)
             {
-                sign = -1;
-                i++;
-            }
-            int num = 0;
-            while (i < n && char.IsDigit(str[i]))
-            {
-                int digit = str[i] - '0';
-                if (num > maxDiv10 || num == maxDiv10 && digit >= 8)
+                int curr = (i == vals.Length) ? end + 1 : vals[i];
+                var t = curr - prev;
+                if (t > 1)
                 {
-                    return sign == 1 ? int.MaxValue : int.MinValue;
+                    ranges.Add(this.GetRange(prev + 1, curr - 1));
                 }
-                num = num * 10 + digit;
-                i++;
+                prev = curr;
             }
-            return sign * num;
+            return ranges;
+        }
+        private string GetRange(int from, int to)
+        {
+            return (from == to) ? from + "" : from + "->" + to;
         }
     }
 }
