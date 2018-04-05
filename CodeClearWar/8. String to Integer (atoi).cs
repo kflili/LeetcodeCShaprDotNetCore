@@ -13,7 +13,8 @@ public class Solution {
     {
         if (str == null) return 0;
         int i = 0, n = str.Length;
-        while (i < n && char.IsWhiteSpace(str[i])) i++;
+        // while (i < n && char.IsWhiteSpace(str[i])) i++;
+        while (i < n && str[i] == ' ') i++;
         if (i == n) return 0;
         int sign = 1;
         if (i < n && str[i] == '+') {
@@ -23,7 +24,7 @@ public class Solution {
             i++;
         }
         int num = 0;
-        while (i < n && char.IsDigit(str[i])) {
+        while (i < n && char.IsDigit(str[i])) { // can use str[i] >= '0' and str[i] <= '9' to check IsDigit
             int digit = str[i] - '0';
             if (num > maxDiv10 || num == maxDiv10 && digit >= 8) {
                 return sign == 1 ? int.MaxValue : int.MinValue;

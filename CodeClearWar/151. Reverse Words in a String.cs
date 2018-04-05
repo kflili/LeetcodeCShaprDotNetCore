@@ -7,18 +7,18 @@ public class Solution {
     public string ReverseWords(string s) {
         if (s == null || s.Length == 0) return "";
         int j = s.Length;
-        var str = new StringBuilder();
+        var reversed = new StringBuilder();
         for (int i = s.Length - 1; i >= 0; i--) {
             if (s[i] == ' ') {
                 j = i;
             } else if (i == 0 || s[i - 1] == ' ') {
-                if (str.Length != 0) {
-                    str.Append(' ');
+                if (reversed.Length != 0) {
+                    reversed.Append(' ');
                 }
-                str.Append(s.Substring(i, j - i));
+                reversed.Append(s.Substring(i, j - i));
             }
         }
-        return str.ToString();
+        return reversed.ToString();
     }
 }
 
