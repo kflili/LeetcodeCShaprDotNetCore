@@ -12,7 +12,7 @@ public class Solution {
 }
 
 /*
-or use long.
+or use long. but this is kind language specific, not good.
  */
 
 public class Solution {
